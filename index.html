@@ -1,0 +1,1639 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI 일러스트 프롬프트 가챠</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&amp;family=Space+Grotesk:wght@700&amp;family=Be+Vietnam+Pro:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "background": "#fff9e8",
+                "surface-bright": "#fff9e8",
+                "error": "#ba1a1a",
+                "on-primary-fixed": "#380726",
+                "surface-container": "#f4eedb",
+                "on-primary": "#ffffff",
+                "primary-fixed-dim": "#fcb0d6",
+                "on-surface-variant": "#504349",
+                "on-tertiary-fixed": "#26084d",
+                "on-secondary-container": "#2c6e51",
+                "ink-purple": "#4A3B66",
+                "mint-chip": "#4AD295",
+                "inverse-surface": "#333124",
+                "surface-container-lowest": "#ffffff",
+                "on-secondary-fixed": "#002113",
+                "on-surface": "#1e1c11",
+                "surface": "#fff9e8",
+                "inverse-on-surface": "#f6f1de",
+                "on-tertiary-fixed-variant": "#53397c",
+                "secondary": "#276a4d",
+                "secondary-fixed": "#adf1cc",
+                "tertiary": "#6b5195",
+                "on-primary-container": "#7c4161",
+                "surface-variant": "#e8e2d0",
+                "on-primary-fixed-variant": "#6c3453",
+                "on-secondary-fixed-variant": "#045136",
+                "secondary-container": "#aaeec9",
+                "primary": "#874b6c",
+                "on-tertiary": "#ffffff",
+                "surface-container-highest": "#e8e2d0",
+                "tertiary-fixed": "#ecdcff",
+                "on-secondary": "#ffffff",
+                "outline": "#827379",
+                "on-tertiary-container": "#61478a",
+                "tertiary-fixed-dim": "#d6baff",
+                "soft-white": "#FFFFFF",
+                "on-error": "#ffffff",
+                "error-container": "#ffdad6",
+                "on-error-container": "#93000a",
+                "surface-container-high": "#eee8d5",
+                "secondary-fixed-dim": "#91d5b1",
+                "sky-blue": "#B3E0FF",
+                "on-background": "#1e1c11",
+                "surface-container-low": "#f9f3e1",
+                "surface-tint": "#874b6c",
+                "primary-container": "#ffb3d9",
+                "tertiary-container": "#d8beff",
+                "primary-fixed": "#ffd8e9",
+                "inverse-primary": "#fcb0d6",
+                "bubblegum": "#FF7CC3",
+                "outline-variant": "#d4c2c8",
+                "surface-dim": "#dfdac8",
+                "sunshine": "#FFD966"
+        },
+        "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+        },
+        "spacing": {
+                "max-width": "1000px",
+                "container-padding": "24px",
+                "margin-mobile": "16px",
+                "gutter": "16px",
+                "margin-desktop": "32px",
+                "unit": "8px"
+        },
+        "fontFamily": {
+                "button-text": [
+                        "Plus Jakarta Sans"
+                ],
+                "label-bold": [
+                        "Space Grotesk"
+                ],
+                "headline-lg-mobile": [
+                        "Plus Jakarta Sans"
+                ],
+                "body-std": [
+                        "Be Vietnam Pro"
+                ],
+                "headline-md": [
+                        "Plus Jakarta Sans"
+                ],
+                "headline-lg": [
+                        "Plus Jakarta Sans"
+                ],
+                "micro": [
+                        "Be Vietnam Pro"
+                ],
+                "body-lg": [
+                        "Be Vietnam Pro"
+                ]
+        },
+        "fontSize": {
+                "button-text": [
+                        "15px",
+                        {
+                                "lineHeight": "20px",
+                                "fontWeight": "700"
+                        }
+                ],
+                "label-bold": [
+                        "12px",
+                        {
+                                "lineHeight": "16px",
+                                "letterSpacing": "0.05em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "headline-lg-mobile": [
+                        "24px",
+                        {
+                                "lineHeight": "32px",
+                                "fontWeight": "800"
+                        }
+                ],
+                "body-std": [
+                        "14px",
+                        {
+                                "lineHeight": "22px",
+                                "fontWeight": "400"
+                        }
+                ],
+                "headline-md": [
+                        "20px",
+                        {
+                                "lineHeight": "28px",
+                                "fontWeight": "700"
+                        }
+                ],
+                "headline-lg": [
+                        "32px",
+                        {
+                                "lineHeight": "40px",
+                                "letterSpacing": "-0.02em",
+                                "fontWeight": "800"
+                        }
+                ],
+                "micro": [
+                        "10px",
+                        {
+                                "lineHeight": "12px",
+                                "fontWeight": "700"
+                        }
+                ],
+                "body-lg": [
+                        "16px",
+                        {
+                                "lineHeight": "24px",
+                                "fontWeight": "500"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script>
+<style>
+:root{--pgbg:#ffffff;--pg2:#fff9e8;--pgline:#ffd8e9;--pgtxt:#4A3B66;--pgsub:#874b6c;--pgac:#FF7CC3;--pgpink:#fcb0d6;--pggood:#4AD295}
+body { background-color: var(--pg2); font-family: 'Plus Jakarta Sans', sans-serif; position: relative; }
+/* Decorative stars */
+body::before {
+  content: "✨";
+  position: absolute;
+  top: 50px; left: 10%;
+  font-size: 24px; color: #FFD966; opacity: 0.6;
+  animation: twinkle 3s infinite alternate;
+}
+body::after {
+  content: "✨";
+  position: absolute;
+  top: 150px; right: 15%;
+  font-size: 32px; color: #fcb0d6; opacity: 0.5;
+  animation: twinkle 2.5s infinite alternate-reverse;
+}
+@keyframes twinkle {
+  0% { transform: scale(0.8) rotate(0deg); opacity: 0.3; }
+  100% { transform: scale(1.2) rotate(15deg); opacity: 0.8; }
+}
+
+.pgacha{max-width:820px;margin:32px auto;background:var(--pgbg);border:2px solid var(--pgline);border-radius:32px;padding:24px;color:var(--pgtxt);line-height:1.6;box-sizing:border-box;position:relative;overflow:hidden; box-shadow: 0 10px 30px rgba(255,124,195,0.15);}
+.pgacha::before {
+  content: "⭐"; position: absolute; bottom: 20px; left: 20px; font-size: 20px; opacity: 0.4;
+}
+.pgacha::after {
+  content: "💖"; position: absolute; top: 20px; right: 20px; font-size: 24px; opacity: 0.4;
+}
+.pgacha *{box-sizing:border-box}
+.pgacha .pg-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:8px}
+.pgacha .pg-logo{font-weight:800;font-size:24px; color: var(--pgac);}
+.pgacha .pg-count{font-size:14px;font-weight:700;color:var(--pgsub); background: var(--pgline); padding: 4px 12px; border-radius: 999px;}
+.pgacha .pg-card{background:#fffaf0;border:2px dashed var(--pgline);border-radius:24px;padding:24px;}
+.pgacha .pg-toggles-wrap{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.pgacha .pg-label{font-size:14px;font-weight:700;color:var(--pgtxt)}
+.pgacha .pg-toggles{display:flex;gap:8px;flex-wrap:wrap}
+.pgacha .pg-toggle{font-size:13px;font-weight:700;padding:8px 14px;border-radius:999px;cursor:pointer;border:2px solid var(--pgline);background:white;color:var(--pgsub);user-select:none;transition:all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);}
+.pgacha .pg-toggle:hover { transform: scale(1.05); }
+.pgacha .pg-toggle.on{background:var(--pgac);color:white;border-color:var(--pgac);box-shadow: 0 4px 10px rgba(255,124,195,0.3);}
+.pgacha .pg-machine{display:flex;flex-direction:column;align-items:center;gap:0;padding:0;position:relative}
+
+.pg-gacha-machine{position:relative;width:220px;height:300px;margin:20px auto}
+.pg-dome{position:absolute;top:0;left:10px;width:200px;height:150px;border-radius:100px 100px 0 0;background:linear-gradient(180deg,rgba(255,255,255,0.8) 0%,rgba(255,216,233,0.3) 60%,rgba(255,216,233,0.1) 100%);border:4px solid var(--pgpink);border-bottom:none;overflow:hidden;z-index:2;box-shadow: inset 0 0 20px rgba(255,255,255,0.8);}
+.pg-dome-inner{position:relative;width:100%;height:100%}
+.pg-dome-shine{position:absolute;top:10px;left:25px;width:60px;height:35px;background:linear-gradient(135deg,rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.2) 100%);border-radius:50%;transform:rotate(-25deg);z-index:3}
+.pg-dome-shine2{position:absolute;top:40px;right:25px;width:25px;height:15px;background:rgba(255,255,255,0.6);border-radius:50%;transform:rotate(20deg);z-index:3}
+.pg-ball{position:absolute;border-radius:50%;overflow:hidden;box-shadow: inset -3px -3px 6px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.05);}
+.pg-ball::before{content:"";position:absolute;top:2px;left:4px;width:40%;height:40%;background:rgba(255,255,255,0.8);border-radius:50%;filter:blur(1px);}
+.pg-ball:nth-child(3){width:32px;height:32px;background:radial-gradient(circle at 30% 30%,#FF7CC3,#fcb0d6);top:100px;left:20px}
+.pg-ball:nth-child(4){width:28px;height:28px;background:radial-gradient(circle at 30% 30%,#B3E0FF,#7ec8ff);top:105px;left:55px}
+.pg-ball:nth-child(5){width:30px;height:30px;background:radial-gradient(circle at 30% 30%,#aaeec9,#4AD295);top:95px;left:85px}
+.pg-ball:nth-child(6){width:26px;height:26px;background:radial-gradient(circle at 30% 30%,#FFD966,#ffc87e);top:110px;left:115px}
+.pg-ball:nth-child(7){width:34px;height:34px;background:radial-gradient(circle at 30% 30%,#d8beff,#d47eff);top:85px;left:125px}
+.pg-ball:nth-child(8){width:24px;height:24px;background:radial-gradient(circle at 30% 30%,#ffdad6,#ff7e7e);top:100px;left:155px}
+.pg-ball:nth-child(9){width:32px;height:32px;background:radial-gradient(circle at 30% 30%,#aaeec9,#4AD295);top:50px;left:35px}
+.pg-ball:nth-child(10){width:28px;height:28px;background:radial-gradient(circle at 30% 30%,#d8beff,#c040e0);top:70px;left:40px}
+.pg-ball:nth-child(11){width:22px;height:22px;background:radial-gradient(circle at 30% 30%,#FFD966,#ffb07e);top:85px;left:55px}
+.pg-ball:nth-child(12){width:30px;height:30px;background:radial-gradient(circle at 30% 30%,#B3E0FF,#7eb0ff);top:60px;left:80px}
+.pg-ball:nth-child(13){width:24px;height:24px;background:radial-gradient(circle at 30% 30%,#FF7CC3,#ff7ec8);top:80px;left:75px}
+.pg-ball:nth-child(14){width:26px;height:26px;background:radial-gradient(circle at 30% 30%,#aaeec9,#7effc8);top:55px;left:130px}
+.pg-ball:nth-child(15){width:20px;height:20px;background:radial-gradient(circle at 30% 30%,#FFD966,#ffd07e);top:75px;left:110px}
+.pg-ball:nth-child(16){width:28px;height:28px;background:radial-gradient(circle at 30% 30%,#d8beff,#c07eff);top:65px;left:150px}
+.pg-ball:nth-child(17){width:22px;height:22px;background:radial-gradient(circle at 30% 30%,#B3E0FF,#7ed0ff);top:100px;left:140px}
+.pg-ball:nth-child(18){width:26px;height:26px;background:radial-gradient(circle at 30% 30%,#FF7CC3,#ff7ea0);top:115px;left:25px}
+.pg-ball:nth-child(19){width:22px;height:22px;background:radial-gradient(circle at 30% 30%,#aaeec9,#7eff7e);top:120px;left:80px}
+.pg-ball:nth-child(20){width:24px;height:24px;background:radial-gradient(circle at 30% 30%,#FFD966,#ffc87e);top:118px;left:145px}
+.pg-ball:nth-child(21){width:20px;height:20px;background:radial-gradient(circle at 30% 30%,#d8beff,#d07eff);top:25px;left:165px}
+.pg-dome-rim{position:absolute;top:146px;left:0;width:220px;height:12px;background:linear-gradient(180deg,#FF7CC3,#fcb0d6);border-radius:10px;z-index:4;box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+.pg-machine-body{position:absolute;top:152px;left:15px;width:190px;height:130px;background:linear-gradient(180deg,#ffffff,#fff9e8);border-radius:0 0 20px 20px;z-index:1;border:4px solid var(--pgpink);border-top:none;box-shadow: inset 0 -5px 15px rgba(255,124,195,0.1);}
+.pg-coin-slot{position:absolute;top:170px;left:50%;transform:translateX(-50%);width:56px;height:36px;background:#f4eedb;border-radius:18px;border:2px solid var(--pgpink);display:flex;align-items:center;justify-content:center;box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);}
+.pg-coin-slot-inner{width:10px;height:24px;background:#874b6c;border-radius:5px;}
+.pg-lever{position:absolute;right:0px;top:180px;width:34px;height:60px;z-index:3}
+.pg-lever-base{width:22px;height:22px;background:var(--pgpink);border-radius:8px;position:absolute;bottom:0;left:6px;box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
+.pg-lever-stick{width:8px;height:40px;background:linear-gradient(90deg,#ffd8e9,#fcb0d6);border-radius:4px;position:absolute;bottom:18px;left:13px}
+.pg-lever-knob{width:24px;height:24px;background:radial-gradient(circle at 35% 35%,#FFD966,#f0a030);border-radius:50%;position:absolute;top:0;left:5px;box-shadow:0 3px 6px rgba(0,0,0,0.2);cursor:pointer;transition:transform .1s}
+.pg-lever-knob:hover{transform:scale(1.15)}
+.pg-lever-knob:active{transform:translateY(8px) scale(0.95)}
+.pg-lever.pull .pg-lever-knob{animation:leverPull .6s ease-in-out}
+@keyframes leverPull{0%{transform:translateY(0)}30%{transform:translateY(16px) rotate(-15deg)}60%{transform:translateY(16px) rotate(-15deg)}100%{transform:translateY(0)}}
+.pg-tray{position:absolute;bottom:-18px;left:45px;width:130px;height:30px;background:#ffffff;border-radius:0 0 15px 15px;border:4px solid var(--pgpink);border-top:2px solid var(--pgline);z-index:1;display:flex;align-items:center;justify-content:center;box-shadow: inset 0 4px 8px rgba(0,0,0,0.05);}
+.pg-tray::before{content:"";position:absolute;top:-2px;left:15px;right:15px;height:4px;background:var(--pgline);border-radius:2px}
+.pg-dispensed{position:absolute;bottom:-30px;left:100px;width:24px;height:24px;border-radius:50%;z-index:4;opacity:0;transition:all .5s cubic-bezier(.34,1.56,.64,1);box-shadow: inset -2px -2px 4px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.1);}
+.pg-dispensed::before{content:"";position:absolute;top:3px;left:4px;width:40%;height:40%;background:rgba(255,255,255,0.8);border-radius:50%;filter:blur(1px);}
+.pg-dispensed.pop{opacity:1;transform:scale(1.4)}
+.pg-machine-label{position:absolute;top:220px;left:0;width:100%;text-align:center;font-size:12px;font-weight:700;color:var(--pgsub);letter-spacing:1px}
+
+/* ===== 레어도 이펙트 ===== */
+.pg-rarity-badge{display:inline-flex;align-items:center;justify-content:center;font-size:11px;padding:4px 10px;border-radius:999px;margin-left:8px;font-weight:800;text-transform:uppercase;}
+.pg-rarity-common{color:#874b6c;background:#ffd8e9;}
+.pg-rarity-rare{color:#2c6e51;background:#aaeec9;animation:rareGlow 2s ease-in-out infinite}
+.pg-rarity-ssr{color:#4A3B66;background:#FFD966;animation:ssrGlow 1.5s ease-in-out infinite}
+.pg-rarity-ssr::before { content: "✨ "; }
+.pg-rarity-rare::before { content: "⭐ "; }
+@keyframes rareGlow{0%,100%{box-shadow:0 0 6px rgba(170,238,201,0.4)}50%{box-shadow:0 0 15px rgba(170,238,201,0.8)}}
+@keyframes ssrGlow{0%,100%{box-shadow:0 0 8px rgba(255,217,102,0.5)}50%{box-shadow:0 0 20px rgba(255,217,102,0.9)}}
+
+.pg-result{width:100%;display:flex;flex-direction:column;gap:12px;margin-top:24px}
+.pg-placeholder{text-align:center;color:var(--pgsub);font-size:15px;font-weight:700;padding:16px;background:white;border-radius:20px;border:2px dashed var(--pgline);}
+.pg-row{display:flex;align-items:center;gap:12px;background:white;border:2px solid var(--pgline);border-radius:20px;padding:12px 16px;transition:all .3s cubic-bezier(0.34, 1.56, 0.64, 1);}
+.pg-row:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(255,124,195,0.15); }
+.pg-row.rare{border-color:#4AD295;background:#f4fcf8;}
+.pg-row.ssr{border-color:#FFD966;background:#fffcf0;}
+.pg-rcat{font-size:13px;font-weight:800;color:var(--pgac);min-width:100px;background:var(--pg2);padding:4px 10px;border-radius:12px;text-align:center;}
+.pg-rtxt{flex:1;font-size:15px;font-weight:700;word-break:break-word}
+.pg-rtxt .pg-memo{display:block;font-size:13px;font-weight:500;color:var(--pgsub);margin-top:4px}
+.pg-rtxt .pg-rarity-badge{font-size:10px;padding:2px 8px;vertical-align:middle}
+.pg-combined{margin-top:8px;background:white;border:2px solid var(--pgac);border-radius:20px;padding:16px;font-size:14px;font-weight:700;color:var(--pgtxt);word-break:break-word;box-shadow: 0 4px 12px rgba(255,124,195,0.1);}
+
+.pg-actions{display:flex;gap:12px;margin-top:20px;flex-wrap:wrap;justify-content:center}
+.pg-btn{border:none;background:white;color:var(--pgtxt);padding:12px 20px;border-radius:999px;cursor:pointer;font-size:15px;font-weight:800;transition:all .2s cubic-bezier(0.34, 1.56, 0.64, 1);box-shadow: 0 4px 0 var(--pgline), 0 5px 10px rgba(0,0,0,0.05);}
+.pg-btn:hover{transform:translateY(-2px);box-shadow: 0 6px 0 var(--pgline), 0 8px 15px rgba(0,0,0,0.1);}
+.pg-btn:active{transform:translateY(4px);box-shadow: 0 0 0 var(--pgline);}
+.pg-btn:disabled{opacity:0.5;cursor:not-allowed;transform:none;box-shadow:none;}
+.pg-pink{background:linear-gradient(135deg,var(--pgac),#ff99d6);color:white;box-shadow: 0 4px 0 #e660a9, 0 5px 15px rgba(255,124,195,0.3);}
+.pg-pink:hover{box-shadow: 0 6px 0 #e660a9, 0 8px 20px rgba(255,124,195,0.4);}
+.pg-pink:active{box-shadow: 0 0 0 #e660a9;}
+.pg-btn-sm{font-size:13px;padding:8px 16px;}
+
+/* ===== 이미지 미리보기 ===== */
+.pg-image-preview{margin-top:16px;border-radius:24px;overflow:hidden;background:white;border:2px solid var(--pgline);text-align:center;box-shadow: 0 8px 20px rgba(255,124,195,0.1);}
+.pg-image-preview img{width:100%;max-height:360px;object-fit:cover;display:block}
+.pg-image-preview .pg-img-placeholder{padding:30px;color:var(--pgsub);font-size:14px;font-weight:700;}
+.pg-image-preview .pg-img-placeholder .spinner{display:inline-block;width:32px;height:32px;border:4px solid var(--pgline);border-top-color:var(--pgac);border-radius:50%;animation:spin 1s ease-in-out infinite;margin-bottom:12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ===== 히스토리 ===== */
+.pg-history{margin-top:16px;max-height:320px;overflow-y:auto;padding-right:8px;}
+.pg-history::-webkit-scrollbar { width: 8px; }
+.pg-history::-webkit-scrollbar-track { background: var(--pg2); border-radius: 4px; }
+.pg-history::-webkit-scrollbar-thumb { background: var(--pgline); border-radius: 4px; }
+.pg-history-item{padding:12px 16px;border:2px solid var(--pgline);border-radius:16px;margin-bottom:8px;cursor:pointer;background:white;font-size:13px;font-weight:500;transition:all .2s cubic-bezier(0.34, 1.56, 0.64, 1);display:flex;align-items:center;gap:10px;justify-content:space-between}
+.pg-history-item:hover{border-color:var(--pgac);transform:translateY(-2px);box-shadow:0 4px 10px rgba(255,124,195,0.15);}
+.pg-history-item .pg-hi-text{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pg-history-item .pg-hi-time{font-size:11px;font-weight:700;color:var(--pgsub);white-space:nowrap;background:var(--pg2);padding:4px 8px;border-radius:8px;}
+.pg-history-empty{text-align:center;color:var(--pgsub);font-size:14px;font-weight:700;padding:24px;background:white;border-radius:16px;border:2px dashed var(--pgline);}
+
+/* ===== 가챠 오버레이 이펙트 ===== */
+.pg-overlay{position:absolute;top:0;left:0;right:0;bottom:0;pointer-events:none;z-index:10}
+.pg-ssr-flash{position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(circle at center,rgba(255,217,102,0.4) 0%,rgba(255,124,195,0.2) 40%,transparent 80%);animation:ssrFlash .8s ease-out forwards}
+@keyframes ssrFlash{0%{opacity:0;transform:scale(0.8)}30%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(1.1)}}
+.pg-particle{position:absolute;width:12px;height:12px;border-radius:50%;animation:particleFall 2s ease-in forwards;box-shadow:0 0 10px currentColor;}
+@keyframes particleFall{0%{transform:translateY(-30px) rotate(0deg);opacity:1}100%{transform:translateY(500px) rotate(1080deg);opacity:0}}
+
+/* ===== 모달 ===== */
+.pg-modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(74,59,102,0.6);backdrop-filter:blur(4px);z-index:100;display:flex;align-items:center;justify-content:center;animation:fadeIn .3s}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.pg-modal{background:white;border:4px solid var(--pgpink);border-radius:32px;padding:32px;max-width:480px;width:90%;max-height:85vh;overflow-y:auto;box-shadow: 0 20px 40px rgba(255,124,195,0.2);}
+.pg-modal h3{margin:0 0 20px;font-size:20px;font-weight:800;color:var(--pgac);text-align:center;}
+.pg-modal label{display:block;font-size:14px;font-weight:700;color:var(--pgsub);margin-bottom:8px;margin-top:16px}
+.pg-modal select,.pg-modal input,.pg-modal textarea{width:100%;padding:12px 16px;border-radius:16px;border:2px solid var(--pgline);background:var(--pg2);color:var(--pgtxt);font-size:14px;font-family:inherit;font-weight:500;transition:all 0.2s;}
+.pg-modal select:focus,.pg-modal input:focus,.pg-modal textarea:focus{outline:none;border-color:var(--pgac);background:white;box-shadow: 0 0 0 4px rgba(255,124,195,0.1);}
+.pg-modal textarea{min-height:80px;resize:vertical}
+.pg-modal-actions{display:flex;gap:12px;margin-top:24px;justify-content:flex-end}
+
+/* ===== 공유 버튼 ===== */
+.pg-share-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;justify-content:center;}
+.pg-share-btn{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;padding:8px 14px;border-radius:12px;border:2px solid var(--pgline);background:white;color:var(--pgtxt);cursor:pointer;transition:all .2s cubic-bezier(0.34, 1.56, 0.64, 1);text-decoration:none;box-shadow:0 2px 0 var(--pgline);}
+.pg-share-btn:hover{border-color:var(--pgac);transform:translateY(-2px);box-shadow:0 4px 0 var(--pgac);}
+.pg-share-btn:active{transform:translateY(2px);box-shadow:0 0 0 var(--pgac);}
+
+/* ===== 브라우즈 ===== */
+.pg-browse{margin-top:24px;background:white;border:2px solid var(--pgline);border-radius:24px;padding:0 24px;box-shadow: 0 8px 20px rgba(255,124,195,0.05);}
+.pg-browse summary{cursor:pointer;padding:20px 0;font-size:16px;font-weight:800;color:var(--pgac);list-style:none;}
+.pg-browse summary::-webkit-details-marker { display:none; }
+.pg-browse summary::before { content: "✨ "; }
+.pg-search{width:100%;padding:14px 20px;border-radius:16px;border:2px solid var(--pgline);background:var(--pg2);color:var(--pgtxt);font-size:14px;font-weight:500;margin-bottom:16px;transition:all 0.2s;}
+.pg-search:focus{outline:none;border-color:var(--pgac);background:white;box-shadow: 0 0 0 4px rgba(255,124,195,0.1);}
+.pg-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.pg-chip{font-size:13px;font-weight:700;padding:6px 14px;border-radius:999px;cursor:pointer;border:2px solid var(--pgline);background:white;color:var(--pgsub);transition:all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);}
+.pg-chip:hover{transform:scale(1.05);}
+.pg-chip.active{background:var(--pgac);color:white;border-color:var(--pgac);box-shadow:0 4px 10px rgba(255,124,195,0.3);}
+.pg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;padding-bottom:24px;max-height:480px;overflow:auto;padding-right:8px;}
+.pg-grid::-webkit-scrollbar { width: 8px; }
+.pg-grid::-webkit-scrollbar-track { background: var(--pg2); border-radius: 4px; }
+.pg-grid::-webkit-scrollbar-thumb { background: var(--pgline); border-radius: 4px; }
+.pg-item{background:white;border:2px solid var(--pgline);border-radius:20px;padding:16px;display:flex;flex-direction:column;gap:8px;position:relative;transition:all .2s cubic-bezier(0.34, 1.56, 0.64, 1);}
+.pg-item:hover{transform:translateY(-4px);box-shadow:0 8px 16px rgba(255,124,195,0.15);border-color:var(--pgac);}
+.pg-item .pg-item-actions{display:flex;gap:6px;margin-top:8px}
+.pg-item .pg-item-actions button{font-size:11px;font-weight:700;padding:4px 10px;border-radius:8px;border:2px solid var(--pgline);background:var(--pg2);color:var(--pgsub);cursor:pointer;transition:all 0.2s;}
+.pg-item .pg-item-actions button:hover{border-color:var(--pgac);color:var(--pgtxt);background:white;}
+.pg-icat{font-size:12px;color:white;background:var(--pgpink);padding:4px 10px;border-radius:10px;font-weight:800;align-self:flex-start;}
+.pg-itxt{font-size:14px;font-weight:700;word-break:break-word}
+.pg-imemo{font-size:13px;font-weight:500;color:var(--pgsub)}
+.pg-icopy{align-self:flex-start;font-size:12px;font-weight:800;padding:6px 14px;border-radius:12px;border:2px solid var(--pgac);background:white;color:var(--pgac);cursor:pointer;transition:all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);}
+.pg-icopy:hover{background:var(--pgac);color:white;transform:scale(1.05);}
+
+.pg-toast{position:fixed;left:50%;bottom:32px;transform:translateX(-50%) translateY(20px);background:var(--pgac);color:white;padding:12px 24px;border-radius:999px;font-weight:800;font-size:15px;opacity:0;transition:.3s cubic-bezier(0.34, 1.56, 0.64, 1);z-index:9999;pointer-events:none;box-shadow:0 10px 20px rgba(255,124,195,0.3);}
+.pg-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.pg-toast.error{background:#ff7e7e}
+
+/* ===== 코인 시스템 ===== */
+.pg-coin-display{font-size:13px;color:var(--pgsub);background:white;border:2px solid var(--pgline);border-radius:999px;padding:6px 12px;font-weight:700;display:inline-flex;align-items:center;gap:4px}
+
+
+/* ===== 10연차 ===== */
+.pg-multi-opts{display:flex;gap:4px;margin-left:8px}
+.pg-multi-opt{font-size:12px;font-weight:700;padding:6px 12px;border-radius:999px;border:2px solid var(--pgline);background:white;color:var(--pgsub);cursor:pointer;transition:all .2s}
+.pg-multi-opt.on,.pg-multi-opt:hover{background:var(--pgac);color:white;border-color:var(--pgac)}
+
+/* ===== 프리셋 ===== */
+.pg-preset-btn{font-size:11px;font-weight:700;padding:5px 10px;border-radius:999px;border:2px solid var(--pgline);background:white;color:var(--pgsub);cursor:pointer;transition:all .2s}
+.pg-preset-btn:hover{border-color:var(--pgac);color:var(--pgac)}
+.pg-preset-btn.on,.pg-preset-btn.active{background:var(--pgac);color:white;border-color:var(--pgac)}
+
+/* ===== 통계 ===== */
+.pg-stats{background:white;border:2px solid var(--pgline);border-radius:24px;margin-top:16px;padding:0 20px;box-shadow:0 4px 12px rgba(255,124,195,0.05)}
+.pg-stats summary{font-size:15px;font-weight:800;color:var(--pgac);cursor:pointer;padding:14px 0;list-style:none}
+.pg-stats summary::-webkit-details-marker{display:none}
+.pg-stats summary::before{content:"📊 "}
+.pg-stats-body{padding-bottom:16px}
+.pg-stats-row{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+.pg-stat-item{flex:1;min-width:60px;background:var(--pg2);border:2px solid var(--pgline);border-radius:16px;padding:10px 6px;text-align:center;transition:all .2s}
+.pg-stat-ssr .pg-stat-num{color:#e0a800}
+.pg-stat-rare .pg-stat-num{color:#2c6e51}
+.pg-stat-common .pg-stat-num{color:var(--pgsub)}
+.pg-stat-num{display:block;font-size:24px;font-weight:800}
+.pg-stat-label{font-size:10px;font-weight:700;color:var(--pgsub)}
+.pg-bar-row{display:flex;align-items:center;gap:8px;margin-top:8px;font-size:12px;font-weight:700}
+.pg-bar{flex:1;height:10px;background:var(--pg2);border-radius:5px;overflow:hidden;border:1px solid var(--pgline)}
+.pg-bar-fill{height:100%;border-radius:5px;transition:width .5s cubic-bezier(0.34,1.56,0.64,1)}
+.pg-bar-ssr{background:linear-gradient(90deg,#FFD966,#ffb83d)}
+.pg-bar-rare{background:linear-gradient(90deg,#aaeec9,#4AD295)}
+.pg-bar-common{background:linear-gradient(90deg,#ffd8e9,#fcb0d6)}
+
+/* ===== 스크래치 패드 ===== */
+.pg-scratch{background:white;border:2px solid var(--pgline);border-radius:24px;margin-top:16px;padding:0 20px;box-shadow:0 4px 12px rgba(255,124,195,0.05)}
+.pg-scratch summary{font-size:15px;font-weight:800;color:var(--pgac);cursor:pointer;padding:14px 0;list-style:none}
+.pg-scratch summary::-webkit-details-marker{display:none}
+.pg-scratch summary::before{content:"⭐ "}
+.pg-scratch-body{padding-bottom:16px}
+.pg-scratch-item{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--pg2);border:2px solid var(--pgline);border-radius:14px;margin-top:8px;font-size:13px;transition:all .2s}
+.pg-si-cat{min-width:70px;color:white;background:var(--pgpink);padding:3px 8px;border-radius:8px;font-size:10px;font-weight:800;text-align:center}
+.pg-si-text{flex:1;word-break:break-word;font-weight:700}
+.pg-si-rm{font-size:11px;font-weight:700;padding:3px 8px;border-radius:8px;border:2px solid var(--pgline);background:white;color:var(--pgsub);cursor:pointer;transition:all .2s}
+.pg-si-rm:hover{background:#ff7e7e;color:white;border-color:#ff7e7e}
+.pg-scratch-actions{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
+
+/* ===== 갤러리 ===== */
+.pg-gallery{background:white;border:2px solid var(--pgline);border-radius:24px;margin-top:16px;padding:0 20px;box-shadow:0 4px 12px rgba(255,124,195,0.05)}
+.pg-gallery summary{font-size:15px;font-weight:800;color:var(--pgac);cursor:pointer;padding:14px 0;list-style:none}
+.pg-gallery summary::-webkit-details-marker{display:none}
+.pg-gallery summary::before{content:"🖼️ "}
+.pg-gallery-body{padding-bottom:16px}
+.pg-gallery-drop{border:3px dashed var(--pgline);border-radius:20px;padding:24px;text-align:center;cursor:pointer;transition:all .2s;margin-top:8px}
+.pg-gallery-drop:hover,.pg-gallery-drop.dragover{border-color:var(--pgac);background:rgba(255,124,195,0.05)}
+.pg-gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:10px;margin-top:12px;max-height:360px;overflow-y:auto;padding-right:4px}
+.pg-gallery-img{position:relative;border-radius:12px;overflow:hidden;border:2px solid var(--pgline);transition:all .2s}
+.pg-gallery-img:hover{transform:scale(1.03);border-color:var(--pgac)}
+.pg-gallery-img img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.pg-gallery-img button{position:absolute;font-size:10px;font-weight:700;padding:3px 7px;border-radius:8px;border:none;cursor:pointer;transition:all .2s}
+.pg-gi-del{top:4px;right:4px;background:rgba(255,80,80,.85);color:#fff}
+.pg-gi-del:hover{background:#ff4444}
+.pg-gi-view{bottom:4px;right:4px;background:rgba(0,0,0,.6);color:#fff}
+.pg-gi-view:hover{background:rgba(0,0,0,.8)}
+
+/* ===== 이미지 뷰어 ===== */
+.pg-imgview-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.92);z-index:200;display:none;align-items:center;justify-content:center;flex-direction:column}
+.pg-imgview-overlay.show{display:flex}
+.pg-imgview-overlay img{max-width:90%;max-height:72vh;border-radius:16px;border:4px solid var(--pgpink)}
+.pg-imgview-overlay .pg-imgview-btns{margin-top:16px;display:flex;gap:10px}
+
+/* ===== AI 링크 ===== */
+.pg-ai-links{margin-top:10px;font-size:13px;font-weight:700;text-align:center}
+
+/* ===== SSR확률UP ===== */
+#pgSsrUp{background:white;border:2px solid var(--pgline);color:var(--pgsub);transition:all .2s}
+#pgSsrUp:hover{border-color:var(--pgpink);color:var(--pgpink)}
+#pgSsrUp.active{background:linear-gradient(135deg,#ffb83d,#FFD966);border-color:#e0a800;color:#4A3B66;box-shadow:0 4px 12px rgba(255,184,61,0.3)}
+</style>
+</head>
+<body>
+<div class="pgacha" id="rootGacha">
+<div class="pg-head">
+<span class="pg-logo">🎀 AI 일러스트 가챠 🎀</span>
+<span class="pg-coin-display">🪙 <span id="pgCoinNum">0</span>개</span>
+<span class="pg-coin-display">📅 무료 <span id="pgFreeCnt">5</span>회</span>
+
+<button class="pg-btn pg-btn-sm" id="pgFreeRefresh">🔄</button>
+<span class="pg-count" id="pgCount"></span>
+</div>
+<div class="pg-card">
+<div class="pg-toggles-wrap">
+<span class="pg-label">✨ 뽑을 카테고리:</span>
+<div class="pg-toggles" id="pgToggles"></div>
+</div>
+<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px">
+<span class="pg-label">🎯 프리셋:</span>
+<button class="pg-preset-btn" data-preset="fantasy">⚔️ 판타지</button>
+<button class="pg-preset-btn" data-preset="cyberpunk">🤖 사이버펑크</button>
+<button class="pg-preset-btn" data-preset="spring">🌸 봄소풍</button>
+<button class="pg-preset-btn" data-preset="night">🌙 야경</button>
+<button class="pg-preset-btn" data-preset="retro">📺 레트로</button>
+</div>
+<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:4px">
+<span class="pg-label">🔄 연차:</span>
+<div class="pg-multi-opts">
+<button class="pg-multi-opt on" data-n="1">1회</button>
+<button class="pg-multi-opt" data-n="5">5회</button>
+<button class="pg-multi-opt" data-n="10">10회</button>
+</div>
+<button class="pg-btn pg-pink pg-btn-sm" id="pgRoll10" style="display:none">🎰 10연속 돌리기!</button>
+</div>
+<div class="pg-machine">
+<div class="pg-gacha-machine" id="pgMachine">
+<div class="pg-dome" id="pgDome">
+<div class="pg-dome-inner">
+<div class="pg-dome-shine"></div>
+<div class="pg-dome-shine2"></div>
+<div class="pg-ball"></div><div class="pg-ball"></div><div class="pg-ball"></div><div class="pg-ball"></div>
+<div class="pg-ball"></div><div class="pg-ball"></div><div class="pg-ball"></div><div class="pg-ball"></div>
+<div class="pg-ball"></div><div class="pg-ball"></div><div class="pg-ball"></div><div class="pg-ball"></div>
+<div class="pg-ball"></div><div class="pg-ball"></div><div class="pg-ball"></div><div class="pg-ball"></div>
+<div class="pg-ball"></div><div class="pg-ball"></div><div class="pg-ball"></div><div class="pg-ball"></div>
+<div class="pg-ball"></div>
+</div>
+</div>
+<div class="pg-dome-rim"></div>
+<div class="pg-machine-body"></div>
+<div class="pg-coin-slot"><div class="pg-coin-slot-inner"></div></div>
+<div class="pg-lever" id="pgLever">
+<div class="pg-lever-knob" id="pgLeverKnob"></div>
+<div class="pg-lever-stick"></div>
+<div class="pg-lever-base"></div>
+</div>
+<div class="pg-tray"></div>
+<div class="pg-dispensed" id="pgDispensed"></div>
+<div class="pg-machine-label">💖 코인을 넣고 돌려봐요! 💖</div>
+</div>
+<div class="pg-result" id="pgResult">
+<div class="pg-placeholder">「가챠 돌리기」 버튼을 누르면 마법이 시작돼요 ✨</div>
+</div>
+<div class="pg-image-preview" id="pgImagePreview" style="display:none">
+<div style="font-size:12px;font-weight:700;color:var(--pgsub);padding:12px 16px 0;text-align:left">⚠️ 예시 이미지 (결과가 다를 수 있어요)</div>
+<div class="pg-img-placeholder" id="pgImgPlaceholder"><div class="spinner"></div><br/>✨ 예쁜 그림 그리는 중... ✨</div>
+<img alt="AI generated preview" id="pgImgTag" style="display:none"/>
+</div>
+<div class="pg-share-actions" id="pgShareActions" style="display:none"></div>
+<div class="pg-ai-links" id="pgAiLinks" style="display:none">🔗 <a id="pgAiPollinations" href="#" target="_blank" style="color:var(--pgac)">Pollinations에서 고화질 이미지 열기 →</a></div>
+<div class="pg-history" id="pgHistory"></div>
+</div>
+<div class="pg-actions">
+<button class="pg-btn pg-pink" id="pgRoll">💖 가챠 돌리기! 💖</button>
+<button class="pg-btn" id="pgCopyCombo" style="display:none">📋 전체 복사</button>
+<button class="pg-btn" id="pgSaveImage" style="display:none">🖼 이미지 저장</button>
+<button class="pg-btn pg-btn-sm" id="pgAddBtn">✏️ 프롬프트 추가</button>
+<button class="pg-btn pg-btn-sm" id="pgHistoryToggle">📜 히스토리</button>
+</div>
+</div>
+
+<!-- ===== 통계 대시보드 ===== -->
+<details class="pg-stats" id="pgStats">
+<summary id="pgStatsHead">📊 뽑기 통계 <span id="pgStatsArrow">▼</span></summary>
+<div class="pg-stats-body" id="pgStatsBody">
+<div class="pg-stats-row">
+<div class="pg-stat-item"><span class="pg-stat-num" id="pgStatTotal">0</span><span class="pg-stat-label">전체</span></div>
+<div class="pg-stat-item pg-stat-ssr"><span class="pg-stat-num" id="pgStatSsr">0</span><span class="pg-stat-label">SSR</span></div>
+<div class="pg-stat-item pg-stat-rare"><span class="pg-stat-num" id="pgStatRare">0</span><span class="pg-stat-label">Rare</span></div>
+<div class="pg-stat-item pg-stat-common"><span class="pg-stat-num" id="pgStatCommon">0</span><span class="pg-stat-label">Common</span></div>
+</div>
+<div class="pg-bar-row"><span>SSR</span><div class="pg-bar"><div class="pg-bar-fill pg-bar-ssr" id="pgBarSsr" style="width:0%"></div></div><span id="pgPctSsr">0%</span></div>
+<div class="pg-bar-row"><span>Rare</span><div class="pg-bar"><div class="pg-bar-fill pg-bar-rare" id="pgBarRare" style="width:0%"></div></div><span id="pgPctRare">0%</span></div>
+<div class="pg-bar-row"><span>Common</span><div class="pg-bar"><div class="pg-bar-fill pg-bar-common" id="pgBarCommon" style="width:0%"></div></div><span id="pgPctCommon">0%</span></div>
+<div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+<button class="pg-btn pg-btn-sm" id="pgSsrUp">✨ SSR확률UP!</button>
+</div>
+</div>
+</details>
+
+<!-- ===== 스크래치 패드 ===== -->
+<details class="pg-scratch" id="pgScratch">
+<summary id="pgScratchHead">⭐ 스크래치 패드 (<span id="pgScratchCount">0</span>) <span id="pgScratchArrow">▼</span></summary>
+<div class="pg-scratch-body" id="pgScratchBody">
+<div class="pg-scratch-empty" id="pgScratchEmpty" style="text-align:center;color:var(--pgsub);padding:20px;font-size:14px;font-weight:700">아직 저장한 프롬프트가 없어요.<br>결과에서 ⭐를 눌러 저장하세요! 💖</div>
+<div id="pgScratchItems"></div>
+<div class="pg-scratch-actions" id="pgScratchActions" style="display:none">
+<button class="pg-btn pg-btn-sm" id="pgScratchCopyAll">📋 전체 복사</button>
+<button class="pg-btn pg-btn-sm" id="pgScratchGenAll">🖼️ AI 이미지</button>
+<button class="pg-btn pg-btn-sm" id="pgScratchClear">🗑️ 전체 삭제</button>
+</div>
+</div>
+</details>
+
+<!-- ===== 갤러리 ===== -->
+<details class="pg-gallery" id="pgGallery">
+<summary id="pgGalleryHead">🖼️ 내 갤러리 (<span id="pgGalleryCount">0</span>) <span id="pgGalleryArrow">▼</span></summary>
+<div class="pg-gallery-body" id="pgGalleryBody">
+<div class="pg-gallery-drop" id="pgGalleryDrop">
+<div style="font-size:14px;font-weight:700;color:var(--pgsub)">📂 이미지를 드래그하거나 클릭해서 업로드<br><span style="font-size:11px;font-weight:500">PNG, JPG, GIF (최대 50장)</span></div>
+</div>
+<input type="file" id="pgGalleryInput" accept="image/*" multiple style="display:none">
+<div class="pg-gallery-empty" id="pgGalleryEmpty" style="text-align:center;color:var(--pgsub);padding:16px;font-size:13px;font-weight:700">저장된 이미지가 없어요 💖</div>
+<div class="pg-gallery-grid" id="pgGalleryGrid"></div>
+</div>
+</details>
+
+
+
+<!-- ===== 이미지 뷰어 ===== -->
+<div class="pg-imgview-overlay" id="pgImgViewOverlay">
+<img id="pgImgViewTag" alt="gallery">
+<div class="pg-imgview-btns">
+<button class="pg-btn" id="pgImgViewCopy">🔗 URL 복사</button>
+<button class="pg-btn" id="pgImgViewDl">⬇️ 다운로드</button>
+<button class="pg-btn" id="pgImgViewClose">✕ 닫기</button>
+</div>
+</div>
+
+<details class="pg-browse" id="pgBrowseSection">
+<summary>📚 전체 프롬프트 목록 보기</summary>
+<input class="pg-search" id="pgSearch" placeholder="🔍 키워드 검색 (예: 고양이 / 벚꽃 / cat)"/>
+<div class="pg-filters" id="pgFilters"></div>
+<div class="pg-grid" id="pgGrid"></div>
+</details>
+<div class="pg-overlay" id="pgOverlay"></div>
+<div class="pg-toast" id="pgToast"></div>
+</div>
+<div class="pg-modal-overlay" id="pgModalOverlay" style="display:none">
+<div class="pg-modal">
+<h3 id="pgModalTitle">프롬프트 추가 ✨</h3>
+<label>카테고리</label>
+<select id="modalCat"></select>
+<label>프롬프트 (영문 태그)</label>
+<textarea id="modalText" placeholder="1girl, cat ears, long silver hair, blue eyes"></textarea>
+<label>설명 (한글)</label>
+<input id="modalMemo" placeholder="고양이귀 여자아이"/>
+<label>레어도</label>
+<select id="modalRarity"><option value="common">Common (일반)</option><option value="rare">Rare (레어)</option><option value="ssr">SSR (최상급)</option></select>
+<div class="pg-modal-actions">
+<button class="pg-btn" id="modalCancel">취소</button>
+<button class="pg-btn pg-pink" id="modalSave">저장</button>
+</div>
+</div>
+</div>
+<script>
+(function(){
+  var STORAGE_KEYS = {custom:'pg_custom',deleted:'pg_deleted',history:'pg_history',coin:'pg_coin',stats:'pg_stats',scratch:'pg_scratch',gallery:'pg_gallery',ssrUp:'pg_ssr_up',lastDate:'pg_last_date',preset:'pg_preset'};
+
+  var CATS = ["캐릭터","배경・상황","화풍・터치","조명・색상","품질・기타"];
+  var RARITIES = ["common","rare","ssr"];
+  var RARITY_NAMES = {common:"COMMON",rare:"RARE",ssr:"SSR"};
+  var RARITY_CLASSES = {common:"pg-rarity-common",rare:"pg-rarity-rare",ssr:"pg-rarity-ssr"};
+
+  function hashRarity(idx){
+    var h=0;for(var i=0;i<5;i++){h=((h<<5)-h+idx*7+13)&0x7fffffff;}
+    var r=h%100;return r<60?"common":r<90?"rare":"ssr";
+  }
+
+  // ===== SSR 사운드 (Web Audio API) =====
+  var _audioCtx=null;
+  function _getAudioCtx(){if(!_audioCtx)_audioCtx=new(window.AudioContext||window.webkitAudioContext)();return _audioCtx;}
+  function _playSsrSound(){
+    try{
+      var ctx=_getAudioCtx();
+      [523.25,659.25,783.99,1046.50,1318.51].forEach(function(freq,i){
+        var osc=ctx.createOscillator(),gain=ctx.createGain();
+        osc.connect(gain);gain.connect(ctx.destination);
+        osc.type='sine';osc.frequency.value=freq;
+        var t=ctx.currentTime+i*0.13;
+        gain.gain.setValueAtTime(0,t);
+        gain.gain.linearRampToValueAtTime(0.15,t+0.06);
+        gain.gain.exponentialRampToValueAtTime(0.001,t+0.5);
+        osc.start(t);osc.stop(t+0.55);
+      });
+    }catch(e){}
+  }
+
+  var DEFAULT_PROMPTS = [
+    ["캐릭터","1girl, cat ears, long silver hair, blue eyes","고양이귀 여자아이"],
+    ["캐릭터","1boy, short black hair, hoodie, casual outfit","캐주얼 남자아이"],
+    ["캐릭터","1girl, twin tails, school uniform, smiling","트윈테일 교복"],
+    ["캐릭터","elf girl, pointy ears, long blonde hair, green dress","엘프 소녀"],
+    ["캐릭터","mature woman, business suit, glasses, elegant","지적인 성인 여성"],
+    ["캐릭터","magical girl, frilly dress, glowing wand, ribbons","마법소녀"],
+    ["캐릭터","knight in shining armor, sword, determined expression","갑옷 기사"],
+    ["캐릭터","cyberpunk girl, neon visor, techwear, short pink hair","사이버펑크 소녀"],
+    ["캐릭터","kimono girl, traditional japanese, hairpin, serene","기모노 여자아이"],
+    ["캐릭터","chibi character, big head, cute, simple","치비 캐릭터"],
+    ["캐릭터","angel, white wings, halo, flowing robe","천사"],
+    ["캐릭터","demon girl, small horns, tail, mischievous smile","소악마 소녀"],
+    ["캐릭터","maid, frilly apron, headband, polite pose","메이드"],
+    ["캐릭터","adventurer, leather armor, backpack, confident","모험가"],
+    ["캐릭터","idol, stage costume, microphone, sparkling eyes","아이돌"],
+    ["배경・상황","ruined city, overgrown with plants, post-apocalyptic","폐허×자연"],
+    ["배경・상황","cozy cafe interior, warm afternoon light","카페 내부"],
+    ["배경・상황","cherry blossom park, falling petals, spring","벚꽃길"],
+    ["배경・상황","futuristic city, neon signs, flying cars, night","미래 도시의 밤"],
+    ["배경・상황","floating islands, waterfalls, fantasy sky","떠있는 섬"],
+    ["배경・상황","seaside beach, sunset, gentle waves","저녁 노을 바닷가"],
+    ["배경・상황","snowy mountain village, wooden houses, smoke","눈마을"],
+    ["배경・상황","enchanted forest, glowing mushrooms, mist","빛나는 버섯 숲"],
+    ["배경・상황","library, tall bookshelves, dust in sunbeam","오래된 도서관"],
+    ["배경・상황","rooftop at night, city lights, starry sky","밤 옥상"],
+    ["배경・상황","japanese shrine, torii gate, stone lanterns","신사"],
+    ["배경・상황","underwater scene, coral reef, sunrays, bubbles","해중"],
+    ["배경・상황","medieval town market, cobblestone, crowd","중세 시장"],
+    ["배경・상황","flower field, endless meadow, blue sky","꽃밭"],
+    ["배경・상황","rainy street, reflections, umbrella, neon","비오는 거리"],
+    ["화풍・터치","watercolor style, soft pastel, hand-drawn","수채화 터치"],
+    ["화풍・터치","anime style, clean lineart, cel shading","애니메이션 풍"],
+    ["화풍・터치","oil painting, thick brush strokes, classical","유화"],
+    ["화풍・터치","flat illustration, minimal, vector art","플랫 일러스트"],
+    ["화풍・터치","pixel art, 16-bit, retro game style","도트 그림"],
+    ["화풍・터치","realistic, photorealistic, ultra detailed skin","리얼계"],
+    ["화풍・터치","sketch, pencil drawing, rough lines","연필 스케치"],
+    ["화풍・터치","ukiyo-e style, japanese woodblock print","우키요에 풍"],
+    ["화풍・터치","chibi style, super deformed, cute","디포르메"],
+    ["화풍・터치","3d render, octane, cinema4d, smooth","3D 렌더"],
+    ["화풍・터치","art nouveau, ornate, decorative borders","아르누보"],
+    ["화풍・터치","crayon drawing, childlike, colorful","크레용 그림"],
+    ["화풍・터치","pastel drawing, soft chalk texture, gentle colors","파스텔화"],
+    ["화풍・터치","voxel art, 3d cubes, blocky, isometric","복셀 아트"],
+    ["화풍・터치","comic book style, halftone, bold ink","아메리칸 코믹스 풍"],
+    ["조명・색상","golden hour, warm rim light, soft shadows","저녁 따뜻한 색감"],
+    ["조명・색상","cinematic lighting, dramatic contrast, vivid colors","영화풍 조명"],
+    ["조명・색상","soft diffused light, pastel colors, dreamy","포근한 파스텔"],
+    ["조명・색상","neon lighting, cyberpunk colors, glowing","네온"],
+    ["조명・색상","backlight, silhouette, glowing edges","역광 실루엣"],
+    ["조명・색상","moody dark tones, low key lighting","어둡고 무디"],
+    ["조명・색상","bright sunny day, high saturation, cheerful","밝은 맑은 날"],
+    ["조명・색상","monochrome, black and white, high contrast","모노크롬"],
+    ["조명・색상","volumetric light, god rays, atmospheric","광선・볼류메트릭 라이트"],
+    ["조명・색상","warm candlelight, cozy orange glow","촛불의 빛"],
+    ["조명・색상","cool blue tones, moonlight, serene","달빛 한기"],
+    ["조명・색상","vibrant rainbow colors, pop, energetic","팝 극채색"],
+    ["조명・색상","soft morning light, gentle haze, fresh","아침 안개의 빛"],
+    ["조명・색상","sunset gradient sky, pink and purple","석양 그라데이션"],
+    ["조명・색상","magical glowing particles, sparkles, fantasy light","환상적인 발광"],
+    ["품질・기타","masterpiece, best quality, ultra-detailed, 8k","품질up 계열 기본"],
+    ["품질・기타","highly detailed, sharp focus, intricate details","세밀한 묘사 강화"],
+    ["품질・기타","professional, award winning, trending on artstation","퀄리티 향상"],
+    ["품질・기타","depth of field, bokeh, shallow focus","피사계 심도・보케"],
+    ["품질・기타","dynamic pose, dynamic angle, foreshortening","다이내믹한 구도"],
+    ["품질・기타","close-up portrait, detailed face, beautiful eyes","얼굴 클로즈업"],
+    ["품질・기타","full body, standing, full shot","전신"],
+    ["품질・기타","from above, top-down view","내려다보는 앵글"],
+    ["품질・기타","from below, low angle, looking up","올려다보는 앵글"],
+    ["품질・기타","detailed background, intricate environment","배경도 묘사"],
+    ["품질・기타","ultra wide shot, panoramic, expansive","초광각"],
+    ["품질・기타","extreme close-up, macro detail","접사・매크로"],
+    ["품질・기타","rule of thirds, balanced composition","3분할 구도"],
+    ["품질・기타","motion blur, sense of speed, dynamic","모션 블러"],
+    ["품질・기타","high resolution, fine texture, crisp detail","고해상도"],
+    // ===== 추가 프롬프트 (캐릭터) =====
+    ["캐릭터","mermaid, scales, long flowing hair, seashell top","인어"],
+    ["캐릭터","ninja, mask, shuriken, dark outfit, stealthy pose","닌자"],
+    ["캐릭터","robot, mechanical joints, glowing eyes, metallic body","로봇"],
+    ["캐릭터","vampire, fangs, elegant gown, red eyes, gothic","뱀파이어"],
+    ["캐릭터","fairy, translucent wings, glowing dust, tiny, delicate","요정"],
+    ["캐릭터","witch, pointed hat, broomstick, potion, mysterious","마녀"],
+    ["캐릭터","detective, trench coat, magnifying glass, fedora","탐정"],
+    ["캐릭터","pirate, eyepatch, bandana, treasure map, rugged","해적"],
+    ["캐릭터","chef, apron, chef hat, cooking utensils, smiling","요리사"],
+    ["캐릭터","samurai, armor, katana, helmet, determined","사무라이"],
+    ["캐릭터","bride, white dress, veil, bouquet, elegant","신부"],
+    ["캐릭터","ghost, translucent, floating, eerie, ethereal","유령"],
+    ["캐릭터","scientist, lab coat, goggles, test tube, focused","과학자"],
+    ["캐릭터","princess, crown, royal dress, jewelry, dignified","공주"],
+    ["캐릭터","musician, guitar, stage, headphones, performing","뮤지션"],
+    // ===== 추가 프롬프트 (배경) =====
+    ["배경・상황","outer space, stars, nebula, galaxy, cosmic","우주 공간"],
+    ["배경・상황","autumn forest, red and orange leaves, golden light","가을 숲"],
+    ["배경・상황","desert, sand dunes, pyramids, oasis, golden hour","사막"],
+    ["배경・상황","bamboo forest, sunlight filtering through stalks","대나무 숲"],
+    ["배경・상황","amusement park, ferris wheel, roller coaster, colorful","놀이공원"],
+    ["배경・상황","hot spring, steam rising, outdoor bath, rocky","온천"],
+    ["배경・상황","church interior, stained glass, pews, holy light","성당 내부"],
+    ["배경・상황","zen garden, raked sand, rocks, minimalist","선 정원"],
+    ["배경・상황","night festival, lanterns, food stalls, fireworks","야시장 축제"],
+    ["배경・상황","train station, platform, arriving train, misty","기차역"],
+    ["배경・상황","arcade, neon lights, retro games, colorful","오락실"],
+    ["배경・상황","greenhouse, tropical plants, glass roof, humid","온실"],
+    ["배경・상황","castle interior, grand hall, chandelier, tapestry","성 내부"],
+    ["배경・상황","beach at night, bonfire, starry sky, waves","밤 바닷가 모닥불"],
+    ["배경・상황","mountain peak, clouds below, sunrise, majestic","산 정상"],
+    // ===== 추가 프롬프트 (화풍) =====
+    ["화풍・터치","surrealist style, dreamlike, melting forms, dali-esque","초현실주의"],
+    ["화풍・터치","impressionist, loose brushstrokes, vibrant colors","인상파"],
+    ["화풍・터치","gouache painting, matte finish, opaque, velvety","구아슈화"],
+    ["화풍・터치","charcoal drawing, smudged, high contrast, textured","숯 연필화"],
+    ["화풍・터치","stained glass style, bold outlines, colorful segments","스테인드글라스"],
+    ["화풍・터치","origami style, paper folds, geometric, crisp","종이접기 스타일"],
+    ["화풍・터치","graffiti style, spray paint, street art, urban","그래피티"],
+    ["화풍・터치","silhouette art, black shapes, sunset background","실루엣 아트"],
+    ["화풍・터치","cross stitch pattern, pixelated texture, thread","자수 스타일"],
+    ["화풍・터치","sumi-e style, ink wash, japanese brush painting","수묵화"],
+    ["화풍・터치","tapestry style, woven texture, medieval look","태피스트리"],
+    ["화풍・터치","collage style, paper cutouts, mixed media","콜라주"],
+    ["화풍・터치","digital painting, textured brushes, painterly","디지털 페인팅"],
+    ["화풍・터치","line art, minimal, clean lines, monochrome","라인 아트"],
+    ["화풍・터치","pop art style, bold colors, halftone dots, warhol","팝아트"],
+    // ===== 추가 프롬프트 (조명) =====
+    ["조명・색상","bioluminescence, deep sea glow, blue green light","생물발광"],
+    ["조명・색상","studio lighting, softbox, even illumination, clean","스튜디오 조명"],
+    ["조명・색상","lightning strike, dramatic flash, stormy sky","번개 섬광"],
+    ["조명・색상","iridescent, holographic, rainbow sheen, prismatic","홀로그램"],
+    ["조명・색상","firelight, warm flicker, cozy campfire glow","모닥불 빛"],
+    ["조명・색상","underwater caustics, rippling light patterns, water refractions","수중 굴절광"],
+    ["조명・색상","aurora borealis, northern lights, green and purple sky","오로라"],
+    ["조명・색상","dawn, first light, misty morning, soft glow","새벽 첫빛"],
+    ["조명・색상","twilight, purple and orange sky, serene evening","황혼"],
+    ["조명・색상","crepuscular rays, sunbeams through clouds, god rays","태양 광선"],
+    ["조명・색상","lava glow, volcanic red, molten orange, heat","용암 빛"],
+    ["조명・색상","rainbow lighting, multicolored, prismatic, joyful","무지개 조명"],
+    ["조명・색상","full moon, silver light, moonlit night, pale blue","보름달 달빛"],
+    ["조명・색상","fluorescent lighting, cold UV, glowing white","형광등"],
+    ["조명・색상","sunset backlight, warm glow, rim light, golden edge","석양 역광"],
+    // ===== 추가 프롬프트 (품질) =====
+    ["품질・기타","cinematic composition, widescreen, letterbox, epic","시네마틱 구성"],
+    ["품질・기타","symmetrical composition, balanced, centered","대칭 구도"],
+    ["품질・기타","vintage film grain, old photograph texture, nostalgic","레트로 필름"],
+    ["품질・기타","polaroid style, white border, instant photo","폴라로이드"],
+    ["품질・기타","concept art, rough, portfolio quality, iterative","컨셉 아트"],
+    ["품질・기타","splash art, game illustration, vibrant, dynamic","스플래시 아트"],
+    ["품질・기타","character sheet, turnaround view, design reference","캐릭터 시트"],
+    ["품질・기타","double exposure, ghostly overlay, silhouette blend","이중노출"],
+    ["품질・기타","lens flare, light streaks, camera glare","렌즈 플레어"],
+    ["품질・기타","reflection, mirror image, water reflection, symmetry","반사효과"],
+    ["품질・기타","weather effects, rain, snow, fog, atmospheric","날씨 효과"],
+    ["품질・기타","long exposure, motion blur, light trails","장노출"],
+    ["품질・기타","vignette, darkened edges, focused center","비네트 효과"],
+    ["품질・기타","film strip, multiple frames, sequence","필름 스트립"],
+    ["품질・기타","panoramic, wide angle, expansive landscape","파노라마"]
+  ].map(function(a,i){return {cat:a[0],text:a[1],memo:a[2],rarity:hashRarity(i),id:'d'+i};});
+
+  function byId(id){return document.getElementById(id);}
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+
+  // ===== 저장소 =====
+  function loadData(key){try{return JSON.parse(localStorage.getItem(key))||[]}catch(e){return []}}
+  function saveData(key,data){localStorage.setItem(key,JSON.stringify(data))}
+
+  var customPrompts=loadData(STORAGE_KEYS.custom);
+  var deletedIds=new Set(loadData(STORAGE_KEYS.deleted));
+
+  function getAllPrompts(){
+    var all=DEFAULT_PROMPTS.filter(function(p){return !deletedIds.has(p.id);});
+    customPrompts.forEach(function(p,i){p._customIdx=i;all.push(p);});
+    return all;
+  }
+
+  function saveCustomPrompts(){saveData(STORAGE_KEYS.custom,customPrompts);}
+
+  function toast(msg,isError){
+    var t=byId("pgToast");
+    t.textContent=msg;t.className="pg-toast"+(isError?" error":"")+" show";
+    clearTimeout(t._t);t._t=setTimeout(function(){t.classList.remove("show");},2000);
+  }
+
+  function copyText(text){
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){toast("복사했어요! ✨");},fallback);
+    }else{fallback();}
+    function fallback(){
+      var ta=document.createElement("textarea");ta.value=text;
+      document.body.appendChild(ta);ta.select();
+      try{document.execCommand("copy");}catch(e){}
+      ta.remove();toast("복사했어요! ✨");
+    }
+  }
+
+  // ===== 전역 상태 =====
+  var active={};CATS.forEach(function(c){active[c]=true;});
+  var lastCombo=[];
+  var lastRarity="common";
+  var historyData=loadData(STORAGE_KEYS.history);
+  var historyVisible=false;
+  var rollCount=1;
+  var ssrUpActive=localStorage.getItem(STORAGE_KEYS.ssrUp)==="1";
+
+  // ===== 코인 & 무료 코인 =====
+  function getCoinData(){
+    try{return JSON.parse(localStorage.getItem(STORAGE_KEYS.coin))||{coin:0,lastDate:""};}catch(e){return {coin:0,lastDate:""};}
+  }
+  function saveCoinData(d){localStorage.setItem(STORAGE_KEYS.coin,JSON.stringify(d));}
+  function getFreeCount(){
+    var today=new Date().toDateString();
+    var last=getCoinData().lastDate;
+    return last!==today?5:0;
+  }
+  function useFreeCoin(){
+    var today=new Date().toDateString();
+    var d=getCoinData();d.lastDate=today;
+    saveCoinData(d);
+  }
+
+  function refreshCoinUI(){
+    var d=getCoinData();var today=new Date().toDateString();
+    var free=today!==d.lastDate?5:0;
+    byId("pgCoinNum").textContent=d.coin||0;
+    byId("pgFreeCnt").textContent=free;
+  }
+
+  function spendCoin(){
+    var d=getCoinData();var today=new Date().toDateString();
+    // 매일 첫 뽑기: 무료 5회 충전 (기존 코인에 합산)
+    if(today!==d.lastDate){d.lastDate=today;d.coin=(d.coin||0)+5;saveCoinData(d);refreshCoinUI();}
+    // 먼저 무료충전分から消耗 (coin은 매일 자동充值分が含む)
+    if(d.coin>0){d.coin--;saveCoinData(d);refreshCoinUI();return true;}
+    return false;
+  }
+
+  function addCoin(n){
+    var d=getCoinData();d.coin=(d.coin||0)+n;saveCoinData(d);refreshCoinUI();
+  }
+
+  // ===== 통계 =====
+  function loadStats(){
+    try{return JSON.parse(localStorage.getItem(STORAGE_KEYS.stats))||{total:0,ssr:0,rare:0,common:0};}catch(e){return {total:0,ssr:0,rare:0,common:0};}
+  }
+  function saveStats(s){localStorage.setItem(STORAGE_KEYS.stats,JSON.stringify(s));}
+  function recordStat(rarity){
+    var s=loadStats();s.total++;s[rarity]++;saveStats(s);
+    updateStatsUI();
+  }
+  function updateStatsUI(){
+    var s=loadStats();
+    byId("pgStatTotal").textContent=s.total;
+    byId("pgStatSsr").textContent=s.ssr;
+    byId("pgStatRare").textContent=s.rare;
+    byId("pgStatCommon").textContent=s.common;
+    if(s.total>0){
+      byId("pgBarSsr").style.width=(s.ssr/s.total*100).toFixed(1)+"%";
+      byId("pgBarRare").style.width=(s.rare/s.total*100).toFixed(1)+"%";
+      byId("pgBarCommon").style.width=(s.common/s.total*100).toFixed(1)+"%";
+      byId("pgPctSsr").textContent=(s.ssr/s.total*100).toFixed(1)+"%";
+      byId("pgPctRare").textContent=(s.rare/s.total*100).toFixed(1)+"%";
+      byId("pgPctCommon").textContent=(s.common/s.total*100).toFixed(1)+"%";
+    }
+  }
+
+  // ===== 카테고리 토글 =====
+  function renderToggles(){
+    var box=byId("pgToggles");box.innerHTML="";
+    CATS.forEach(function(c){
+      var el=document.createElement("span");
+      el.className="pg-toggle"+(active[c]?" on":"");
+      el.textContent=c;
+      el.onclick=function(){active[c]=!active[c];renderToggles();};
+      box.appendChild(el);
+    });
+  }
+
+  // ===== 파티클 효과 =====
+  function spawnParticles(rarity){
+    if(rarity!=="ssr")return;
+    var overlay=byId("pgOverlay");overlay.innerHTML="";
+    var flash=document.createElement("div");flash.className="pg-ssr-flash";
+    overlay.appendChild(flash);
+    for(var i=0;i<40;i++){
+      var p=document.createElement("div");p.className="pg-particle";
+      p.style.left=(5+Math.random()*90)+"%";
+      p.style.top="-20px";
+      p.style.color=["#FFD966","#FF7CC3","#B3E0FF","#aaeec9","#d8beff"][Math.floor(Math.random()*5)];
+      p.style.background="currentColor";
+      var size = (6+Math.random()*10);
+      if(Math.random() > 0.5) {
+          p.innerHTML = "✨";
+          p.style.background = "transparent";
+          p.style.boxShadow = "none";
+          p.style.fontSize = size*1.5 + "px";
+          p.style.lineHeight = "1";
+      } else {
+          p.style.width=size+"px";
+          p.style.height=size+"px";
+      }
+      p.style.animationDuration=(1.5+Math.random()*1.5)+"s";
+      p.style.animationDelay=(Math.random()*0.5)+"s";
+      overlay.appendChild(p);
+    }
+    setTimeout(function(){overlay.innerHTML="";},3500);
+  }
+
+  // ===== 가챠 실행 =====
+  function doGacha(){
+    var cats=CATS.filter(function(c){return active[c];});
+    if(!cats.length){toast("카테고리를 1개 이상 선택해주세요 🎀",true);return;}
+    if(!spendCoin()){toast("코인이 부족해요! 🪙",true);return;}
+
+    var res=byId("pgResult");
+    res.innerHTML='<div class="pg-placeholder">두근두근... 돌아가는 중! 💖</div>';
+    byId("pgCopyCombo").style.display="none";
+    byId("pgSaveImage").style.display="none";
+    byId("pgShareActions").style.display="none";
+    byId("pgAiLinks").style.display="none";
+    byId("pgImagePreview").style.display="none";
+
+    var lever=byId("pgLever");
+    lever.classList.remove("pull");void lever.offsetWidth;lever.classList.add("pull");
+
+    var dome=byId("pgDome");
+    dome.style.transition="transform .15s";
+    dome.style.transform="rotate(-5deg)";
+    setTimeout(function(){dome.style.transform="rotate(5deg)";},80);
+    setTimeout(function(){dome.style.transform="rotate(-3deg)";},160);
+    setTimeout(function(){dome.style.transform="rotate(0deg)";},240);
+
+    setTimeout(function(){
+      var combo=[];var highestRarityIdx=0;
+      cats.forEach(function(c){
+        var allP=getAllPrompts();
+        var pool=allP.filter(function(p){return p.cat===c;});
+        if(pool.length){
+          var picked=pool[Math.floor(Math.random()*pool.length)];
+          // SSR확률UP: common->rare 40%, common->ssr 15%
+          if(ssrUpActive&&picked.rarity==="common"){
+            var r=Math.random();
+            if(r<0.15)picked=Object.assign({},picked,{rarity:"ssr"});
+            else if(r<0.55)picked=Object.assign({},picked,{rarity:"rare"});
+          }
+          combo.push(picked);
+          var ri=RARITIES.indexOf(picked.rarity);
+          if(ri>highestRarityIdx)highestRarityIdx=ri;
+        }
+      });
+      lastCombo=combo;lastRarity=RARITIES[highestRarityIdx];
+
+      res.innerHTML="";
+      combo.forEach(function(p,i){
+        var row=document.createElement("div");row.className="pg-row";
+        var rc=RARITIES.indexOf(p.rarity);
+        if(rc>=2)row.className+=" ssr";else if(rc>=1)row.className+=" rare";
+        row.innerHTML='<span class="pg-rcat">'+esc(p.cat)+'</span><span class="pg-rtxt">'+esc(p.text)+'<span class="pg-memo">'+esc(p.memo)+' <span class="pg-rarity-badge '+RARITY_CLASSES[p.rarity]+'">'+RARITY_NAMES[p.rarity]+'</span></span></span>';
+        var b=document.createElement("button");b.className="pg-icopy";b.textContent="복사";
+        b.onclick=function(t){return function(){copyText(t);}}(p.text);
+        row.appendChild(b);
+        var star=document.createElement("button");star.className="pg-icopy";star.textContent="⭐";star.style.marginLeft="4px";
+        star.onclick=function(item){return function(){toggleScratch(item);}}(p);
+        row.appendChild(star);
+        res.appendChild(row);
+      });
+      var combined=combo.map(function(p){return p.text;}).join(", ");
+      var cb=document.createElement("div");cb.className="pg-combined";
+      cb.innerHTML='<span style="display:inline-block;font-size:11px;padding:2px 10px;border-radius:999px;margin-right:8px;font-weight:800;text-transform:uppercase;'+(
+        lastRarity==="ssr"?'color:#4A3B66;background:#FFD966':
+        lastRarity==="rare"?'color:#2c6e51;background:#aaeec9':
+        'color:#874b6c;background:#ffd8e9'
+      )+'">'+(lastRarity==="ssr"?"✨ ":"")+(lastRarity==="rare"?"⭐ ":"")+RARITY_NAMES[lastRarity]+'</span>'+esc(combined);
+      res.appendChild(cb);
+      byId("pgCopyCombo").style.display="";
+      byId("pgSaveImage").style.display="";
+      byId("pgShareActions").style.display="";
+
+      // 통계 기록
+      recordStat(lastRarity);
+
+      // 히스토리 저장
+      saveToHistory(combo,lastRarity,combined);
+
+      // AI 이미지
+      loadImagePreview(combined);
+
+      // Pollinations 고화질 링크
+      byId("pgAiLinks").style.display="";
+      byId("pgAiPollinations").href="https://pollinations.ai/prompt/"+encodeURIComponent(combined.substring(0,400))+"?width=1024&height=1024&nologo=true";
+
+      // 공유 버튼
+      renderShareButtons(combined);
+
+      // 파티클 + 사운드
+      spawnParticles(lastRarity);
+      if(lastRarity==="ssr")_playSsrSound();
+
+      // 캡슐
+      var dispensed=byId("pgDispensed");
+      dispensed.classList.remove("pop");void dispensed.offsetWidth;
+      var cMap={common:"#FF7CC3",rare:"#4AD295",ssr:"#FFD966"};
+      dispensed.style.background="radial-gradient(circle at 35% 35%,"+cMap[lastRarity]+","+cMap[lastRarity]+")";
+      dispensed.classList.add("pop");
+      setTimeout(function(){dispensed.classList.remove("pop");},800);
+    },700);
+  }
+
+  // ===== 히스토리 =====
+  function saveToHistory(combo,rarity,combined){
+    historyData.unshift({
+      combo:combo.map(function(p){return {text:p.text,memo:p.memo,cat:p.cat,rarity:p.rarity};}),
+      rarity:rarity,combined:combined,time:new Date().toISOString()
+    });
+    if(historyData.length>50)historyData.length=50;
+    saveData(STORAGE_KEYS.history,historyData);
+    if(historyVisible)renderHistory();
+  }
+
+  function renderHistory(){
+    var box=byId("pgHistory");
+    if(!historyVisible||!historyData.length){box.innerHTML='<div class="pg-history-empty">'+(historyVisible?'히스토리가 없어요 🎀':'')+'</div>';return;}
+    box.innerHTML="";
+    historyData.forEach(function(h,i){
+      var el=document.createElement("div");el.className="pg-history-item";
+      var t=new Date(h.time);
+      var ts=t.getMonth()+1+"/"+t.getDate()+" "+t.getHours()+":"+String(t.getMinutes()).padStart(2,"0");
+      el.innerHTML='<span class="pg-hi-text">'+(h.combo.length?esc(h.combo.map(function(p){return p.memo}).join(" 🎀 ")):'')+'</span><span class="pg-hi-time">'+ts+'</span>';
+      el.onclick=function(){
+        lastCombo=h.combo;lastRarity=h.rarity;
+        restoreFromHistory(h);
+      };
+      box.appendChild(el);
+    });
+  }
+
+  function restoreFromHistory(h){
+    var res=byId("pgResult");
+    res.innerHTML="";
+    h.combo.forEach(function(p){
+      var row=document.createElement("div");row.className="pg-row";
+      var rc=RARITIES.indexOf(p.rarity);
+      if(rc>=2)row.className+=" ssr";else if(rc>=1)row.className+=" rare";
+      row.innerHTML='<span class="pg-rcat">'+esc(p.cat)+'</span><span class="pg-rtxt">'+esc(p.text)+'<span class="pg-memo">'+esc(p.memo)+' <span class="pg-rarity-badge '+RARITY_CLASSES[p.rarity]+'">'+RARITY_NAMES[p.rarity]+'</span></span></span>';
+      var b=document.createElement("button");b.className="pg-icopy";b.textContent="복사";
+      b.onclick=function(t){return function(){copyText(t);}}(p.text);
+      row.appendChild(b);res.appendChild(row);
+    });
+    var combined=h.combined;
+    var cb=document.createElement("div");cb.className="pg-combined";
+    cb.innerHTML='<span style="display:inline-block;font-size:11px;padding:2px 10px;border-radius:999px;margin-right:8px;font-weight:800;text-transform:uppercase;'+(
+      h.rarity==="ssr"?'color:#4A3B66;background:#FFD966':
+      h.rarity==="rare"?'color:#2c6e51;background:#aaeec9':
+      'color:#874b6c;background:#ffd8e9'
+    )+'">'+(h.rarity==="ssr"?"✨ ":"")+(h.rarity==="rare"?"⭐ ":"")+RARITY_NAMES[h.rarity]+'</span>'+esc(combined);
+    res.appendChild(cb);
+    byId("pgCopyCombo").style.display="";
+    byId("pgSaveImage").style.display="";
+    byId("pgShareActions").style.display="";
+    loadImagePreview(combined);
+    renderShareButtons(combined);
+  }
+
+  // ===== AI 이미지 미리보기 =====
+  function loadImagePreview(prompt){
+    var box=byId("pgImagePreview");box.style.display="";
+    var placeholder=byId("pgImgPlaceholder");placeholder.style.display="";
+    var img=byId("pgImgTag");img.style.display="none";
+    var encoded=encodeURIComponent(prompt.substring(0,400));
+    var url="https://image.pollinations.ai/prompt/"+encoded+"?width=512&height=512&nologo=true";
+    img.onload=function(){placeholder.style.display="none";img.style.display="";};
+    img.onerror=function(){placeholder.innerHTML="⚠️ 이미지 생성 실패 (API 한도)";};
+    img.src=url;
+  }
+
+  // ===== 공유 버튼 =====
+  function renderShareButtons(text){
+    var box=byId("pgShareActions");box.innerHTML="";
+    var encoded=encodeURIComponent(text);
+    var shareText=text+"\n\n🎀 AI 일러스트 가챠";
+    var encodedShare=encodeURIComponent(shareText);
+
+    var tw=document.createElement("a");tw.className="pg-share-btn twitter";tw.target="_blank";tw.rel="noopener";
+    tw.href="https://x.com/intent/tweet?text="+encodedShare;
+    tw.innerHTML="𝕏 X";box.appendChild(tw);
+
+    var fb=document.createElement("button");fb.className="pg-share-btn facebook";
+    fb.innerHTML="f Facebook";
+    fb.onclick=function(){
+      window.open("https://www.facebook.com/sharer.php?u="+encodeURIComponent("https://prompt-gacha.netlify.app")+"&quote="+encodedShare,"fb","width=600,height=500");
+    };
+    box.appendChild(fb);
+
+    var threads=document.createElement("a");threads.className="pg-share-btn";threads.target="_blank";threads.rel="noopener";
+    threads.href="https://www.threads.net/intent/post?text="+encodedShare;
+    threads.innerHTML="\ud83e\uddf5 Threads";box.appendChild(threads);
+
+    var ig=document.createElement("button");ig.className="pg-share-btn";
+    ig.innerHTML="\ud83d\udcf7 Instagram";
+    ig.onclick=function(){
+      copyText(text);
+      if(navigator.share){
+        navigator.share({title:"AI \uc77c\ub7ec\uc2a4\ud2b8 \ud504\ub864\ud504\ud2b8",text:text}).catch(function(){});
+      }else{
+        toast("\ud504\ub864\ud504\ud2b8 \ubcf5\uc0ac\uc644\ub8cc! Instagram\uc5d0 \ubd99\uc5ec\ub123\uc73c\uc138\uc694 ✨");
+      }
+    };
+    box.appendChild(ig);
+
+    var shareAll=document.createElement("button");shareAll.className="pg-share-btn";
+    shareAll.innerHTML="\ud83d\udcf2 \uacf5\uc720";
+    shareAll.onclick=function(){
+      if(navigator.share){
+        navigator.share({title:"AI \uc77c\ub7ec\uc2a4\ud2b8 \ud504\ub864\ud504\ud2b8",text:text,url:window.location.href.split("#")[0]}).catch(function(){});
+      }else{
+        copyText(text);
+      }
+    };
+    box.appendChild(shareAll);
+
+    var linkBtn=document.createElement("button");linkBtn.className="pg-share-btn";
+    linkBtn.innerHTML="🔗 링크 복사";
+    linkBtn.onclick=function(){
+      var fullUrl=window.location.href.split("#")[0]+"#prompt="+encodeURIComponent(text);
+      copyText(fullUrl);
+    };
+    box.appendChild(linkBtn);
+
+    var dlBtn=document.createElement("button");dlBtn.className="pg-share-btn";
+    dlBtn.innerHTML="📄 TXT 저장";
+    dlBtn.onclick=function(){downloadText(text);};
+    box.appendChild(dlBtn);
+  }
+
+  function downloadText(text){
+    var blob=new Blob([text],{type:"text/plain;charset=utf-8"});
+    var a=document.createElement("a");a.href=URL.createObjectURL(blob);
+    a.download="prompt-gacha-result.txt";a.click();
+    URL.revokeObjectURL(a.href);
+    toast("TXT 파일로 저장했어요! 🎀");
+  }
+
+  // ===== 이미지 저장 =====
+  function saveAsImage(){
+    if(!lastCombo.length){toast("가챠를 먼저 돌려주세요 🎀",true);return;}
+    var canvas=document.createElement("canvas");canvas.width=600;canvas.height=420;
+    var ctx=canvas.getContext("2d");
+
+    var gradient=ctx.createLinearGradient(0,0,0,420);
+    gradient.addColorStop(0,"#fff9e8");gradient.addColorStop(1,"#ffffff");
+    ctx.fillStyle=gradient;ctx.fillRect(0,0,600,420);
+
+    ctx.fillStyle="#FF7CC3";ctx.font="bold 22px 'Plus Jakarta Sans',sans-serif";
+    ctx.fillText("🎀 AI 일러스트 가챠 🎀",20,38);
+
+    ctx.strokeStyle="#ffd8e9";ctx.lineWidth=2;
+    ctx.strokeRect(16,48,568,2);
+
+    var y=76;
+    lastCombo.forEach(function(p){
+      ctx.fillStyle="#FF7CC3";ctx.font="bold 13px 'Plus Jakarta Sans',sans-serif";
+      ctx.fillText(p.cat,20,y);
+      ctx.fillStyle="#4A3B66";ctx.font="bold 15px 'Plus Jakarta Sans',sans-serif";
+      ctx.fillText(p.text,20,y+20);
+      ctx.fillStyle="#874b6c";ctx.font="12px 'Be Vietnam Pro',sans-serif";
+      ctx.fillText(p.memo,20,y+38);
+
+      var rc=RARITIES.indexOf(p.rarity);
+      var rColor=rc>=2?"#FFD966":rc>=1?"#4AD295":"#ffd8e9";
+      var textColor=rc>=2?"#4A3B66":rc>=1?"#2c6e51":"#874b6c";
+      
+      var textWidth = ctx.measureText(RARITY_NAMES[p.rarity]).width;
+      ctx.fillStyle=rColor;
+      ctx.beginPath();
+      ctx.roundRect(520, y+5, 60, 20, 10);
+      ctx.fill();
+      
+      ctx.fillStyle=textColor;ctx.font="bold 10px sans-serif";
+      ctx.fillText(RARITY_NAMES[p.rarity],530,y+19);
+      y+=56;
+    });
+
+    ctx.fillStyle="#4A3B66";ctx.font="bold 14px 'Plus Jakarta Sans',sans-serif";
+    var combined=lastCombo.map(function(p){return p.text;}).join(", ");
+    wrapText(ctx,combined,20,y+8,560,18);
+
+    ctx.fillStyle="#fcb0d6";ctx.font="11px sans-serif";
+    ctx.fillText("prompt-gacha.netlify.app",20,400);
+
+    var a=document.createElement("a");
+    a.download="prompt-gacha-card.png";
+    a.href=canvas.toDataURL("image/png");
+    a.click();
+    toast("이미지로 저장했어요! 🖼️");
+  }
+
+  function wrapText(ctx,text,x,y,maxWidth,lineHeight){
+    var words=text.split(", ");var line="";
+    for(var n=0;n<words.length;n++){
+      var testLine=line+(line?" ":"")+words[n];
+      if(ctx.measureText(testLine).width>maxWidth&&n>0){
+        ctx.fillText(line,x,y);line=words[n];y+=lineHeight;
+      }else{line=testLine;}
+    }
+    ctx.fillText(line,x,y);
+  }
+
+  // ===== 스크래치 패드 =====
+  function getScratchData(){
+    try{return JSON.parse(localStorage.getItem(STORAGE_KEYS.scratch))||[];}catch(e){return [];}
+  }
+  function saveScratchData(arr){localStorage.setItem(STORAGE_KEYS.scratch,JSON.stringify(arr));}
+  function isInScratch(item){
+    return getScratchData().some(function(s){return s.text===item.text&&s.cat===item.cat;});
+  }
+  function toggleScratch(item){
+    var arr=getScratchData();
+    var idx=arr.findIndex(function(s){return s.text===item.text&&s.cat===item.cat;});
+    if(idx>=0){arr.splice(idx,1);toast("스크래치에서 삭제했어요 🎀");}
+    else{arr.unshift(item);toast("⭐ 스크래치에 저장했어요!");}
+    saveScratchData(arr);renderScratch();
+  }
+  function renderScratch(){
+    var arr=getScratchData();
+    byId("pgScratchCount").textContent=arr.length;
+    byId("pgScratchEmpty").style.display=arr.length?"none":"";
+    byId("pgScratchActions").style.display=arr.length?"":"none";
+    var box=byId("pgScratchItems");box.innerHTML="";
+    arr.forEach(function(item,i){
+      var el=document.createElement("div");el.className="pg-scratch-item";
+      el.innerHTML='<span class="pg-si-cat">'+esc(item.cat)+'</span><span class="pg-si-text">'+esc(item.memo)+'<br><span style="font-size:11px;color:var(--pgsub)">'+esc(item.text)+'</span></span>';
+      var rm=document.createElement("button");rm.className="pg-si-rm";rm.textContent="✕";
+      rm.onclick=function(idx){return function(){
+        var a=getScratchData();a.splice(idx,1);saveScratchData(a);renderScratch();
+      };}(i);
+      el.appendChild(rm);box.appendChild(el);
+    });
+  }
+
+  byId("pgScratchCopyAll").onclick=function(){
+    var arr=getScratchData();
+    if(arr.length)copyText(arr.map(function(p){return p.text;}).join(", "));
+  };
+  byId("pgScratchGenAll").onclick=function(){
+    var arr=getScratchData();
+    if(arr.length){loadImagePreview(arr.map(function(p){return p.text;}).join(", "));byId("pgImagePreview").style.display="";}
+  };
+  byId("pgScratchClear").onclick=function(){
+    if(confirm("스크래치 패드를 비울까요? 😢")){saveScratchData([]);renderScratch();}
+  };
+
+  // ===== 갤러리 =====
+  function getGalleryData(){
+    try{return JSON.parse(localStorage.getItem(STORAGE_KEYS.gallery))||[];}catch(e){return [];}
+  }
+  function saveGalleryData(arr){localStorage.setItem(STORAGE_KEYS.gallery,JSON.stringify(arr));}
+  function addGalleryImage(dataUrl,filename){
+    var arr=getGalleryData();
+    if(arr.length>=50){toast("갤러리가 꽉 찼어요! (최대 50장) 🎀",true);return false;}
+    arr.unshift({data:dataUrl,name:filename||"image_"+Date.now()+".png",time:new Date().toISOString()});
+    saveGalleryData(arr);renderGallery();return true;
+  }
+  function renderGallery(){
+    var arr=getGalleryData();
+    byId("pgGalleryCount").textContent=arr.length;
+    byId("pgGalleryEmpty").style.display=arr.length?"none":"";
+    var grid=byId("pgGalleryGrid");grid.innerHTML="";
+    arr.forEach(function(img,i){
+      var el=document.createElement("div");el.className="pg-gallery-img";
+      var imgEl=document.createElement("img");imgEl.src=img.data;imgEl.alt=img.name;
+      imgEl.onclick=function(idx){return function(){openImgView(idx);};}(i);
+      el.appendChild(imgEl);
+      var del=document.createElement("button");del.className="pg-gi-del";del.textContent="✕";
+      del.onclick=function(idx){return function(){
+        if(confirm("이 이미지를 삭제할까요?")){var a=getGalleryData();a.splice(idx,1);saveGalleryData(a);renderGallery();}
+      };}(i);
+      el.appendChild(del);
+      var view=document.createElement("button");view.className="pg-gi-view";view.textContent="👁";
+      view.onclick=function(idx){return function(){openImgView(idx);};}(i);
+      el.appendChild(view);
+      grid.appendChild(el);
+    });
+  }
+  var _galleryViewIdx=0;
+  function openImgView(idx){
+    _galleryViewIdx=idx;
+    var arr=getGalleryData();var img=arr[idx];
+    byId("pgImgViewTag").src=img.data;
+    byId("pgImgViewOverlay").classList.add("show");
+  }
+  byId("pgImgViewClose").onclick=function(){byId("pgImgViewOverlay").classList.remove("show");};
+  byId("pgImgViewCopy").onclick=function(){
+    copyText(getGalleryData()[_galleryViewIdx].data);
+  };
+  byId("pgImgViewDl").onclick=function(){
+    var img=getGalleryData()[_galleryViewIdx];
+    var a=document.createElement("a");a.href=img.data;a.download=img.name;a.click();
+  };
+
+  // 드래그 앤 드롭
+  var drop=byId("pgGalleryDrop");
+  drop.addEventListener("click",function(){byId("pgGalleryInput").click();});
+  drop.addEventListener("dragover",function(e){e.preventDefault();drop.classList.add("dragover");});
+  drop.addEventListener("dragleave",function(){drop.classList.remove("dragover");});
+  drop.addEventListener("drop",function(e){
+    e.preventDefault();drop.classList.remove("dragover");
+    var files=e.dataTransfer.files;
+    for(var i=0;i<files.length;i++){
+      if(!files[i].type.match(/image/))continue;
+      var reader=new FileReader();
+      reader.onload=function(f){return function(ev){
+        addGalleryImage(ev.target.result,f.name);
+      };}(files[i]);
+      reader.readAsDataURL(files[i]);
+    }
+  });
+  byId("pgGalleryInput").addEventListener("change",function(e){
+    var files=e.target.files;
+    for(var i=0;i<files.length;i++){
+      var reader=new FileReader();
+      reader.onload=function(f){return function(ev){
+        addGalleryImage(ev.target.result,f.name);
+      };}(files[i]);
+      reader.readAsDataURL(files[i]);
+    }
+    e.target.value="";
+  });
+
+  // ===== 프리셋 =====
+  var PRESETS={
+    fantasy:{캐릭터:true,배경:true,"화풍・터치":true,"조명・색상":true,"품질・기타":true},
+    cyberpunk:{캐릭터:true,배경:true,"화풍・터치":false,"조명・색상":true,"품질・기타":true},
+    spring:{캐릭터:true,배경:true,"화풍・터치":true,"조명・색상":false,"품질・기타":false},
+    night:{캐릭터:true,배경:true,"화풍・터치":false,"조명・색상":true,"품질・기타":true},
+    retro:{캐릭터:true,배경:true,"화풍・터치":true,"조명・색상":false,"품질・기타":true}
+  };
+  function applyPreset(name){
+    CATS.forEach(function(c){active[c]=!!PRESETS[name][c];});
+    renderToggles();
+    localStorage.setItem(STORAGE_KEYS.preset,name);
+    document.querySelectorAll(".pg-preset-btn").forEach(function(b){
+      b.classList.toggle("active",b.dataset.preset===name);
+    });
+    toast("⚔️ "+name+" 프리셋 적용 완료!");
+  }
+  document.querySelectorAll(".pg-preset-btn").forEach(function(btn){
+    btn.onclick=function(){applyPreset(btn.dataset.preset);};
+  });
+  var savedPreset=localStorage.getItem(STORAGE_KEYS.preset);
+  if(savedPreset&&PRESETS[savedPreset]){
+    CATS.forEach(function(c){active[c]=!!PRESETS[savedPreset][c];});
+    document.querySelectorAll(".pg-preset-btn").forEach(function(b){
+      b.classList.toggle("active",b.dataset.preset===savedPreset);
+    });
+    renderToggles();
+  }
+
+  // ===== 10연속 =====
+  document.querySelectorAll(".pg-multi-opt").forEach(function(btn){
+    btn.onclick=function(){
+      document.querySelectorAll(".pg-multi-opt").forEach(function(b){b.classList.remove("on");});
+      btn.classList.add("on");
+      rollCount=parseInt(btn.dataset.n);
+      byId("pgRoll10").style.display=rollCount>=5?"":"none";
+    };
+  });
+  byId("pgRoll10").onclick=function(){
+    byId("pgRoll10").disabled=true;
+    var results=[];
+    var run=function(n){
+      if(n>rollCount){
+        byId("pgRoll10").disabled=false;
+        // 모은 결과를 한꺼번에 표시
+        if(results.length===1){
+          // 1개면 일반 결과와 동일
+        }else{
+          // 여러 개면 aggregated view
+          showMultiResult(results);
+        }
+        return;
+      }
+      if(!spendCoin()){toast("코인이 부족해요! 🪙",true);byId("pgRoll10").disabled=false;return;}
+      // 가챠 실행 (화면 업데이트 없이)
+      var cats=CATS.filter(function(c){return active[c];});
+      if(!cats.length){toast("카테고리를 1개 이상 선택해주세요 🎀",true);return;}
+      var combo=[];var highestRarityIdx=0;
+      cats.forEach(function(c){
+        var pool=getAllPrompts().filter(function(p){return p.cat===c;});
+        if(pool.length){
+          var picked=pool[Math.floor(Math.random()*pool.length)];
+          if(ssrUpActive&&picked.rarity==="common"){
+            var r=Math.random();
+            if(r<0.15)picked=Object.assign({},picked,{rarity:"ssr"});
+            else if(r<0.55)picked=Object.assign({},picked,{rarity:"rare"});
+          }
+          combo.push(picked);
+          var ri=RARITIES.indexOf(picked.rarity);
+          if(ri>highestRarityIdx)highestRarityIdx=ri;
+        }
+      });
+      var r=RARITIES[highestRarityIdx];
+      results.push({combo:combo,rarity:r,combined:combo.map(function(p){return p.text;}).join(", ")});
+      recordStat(r);
+      if(r==="ssr")_playSsrSound();
+      saveToHistory(combo,r,combo.map(function(p){return p.text;}).join(", "));
+      run(n+1);
+    };
+    run(1);
+  };
+
+  function showMultiResult(results){
+    var res=byId("pgResult");
+    res.innerHTML="";
+    results.forEach(function(h,i){
+      var row=document.createElement("div");row.className="pg-row";
+      if(h.rarity==="ssr")row.className="pg-row ssr";
+      else if(h.rarity==="rare")row.className="pg-row rare";
+      row.innerHTML=`<span class="pg-rcat">${i+1}번째</span><span class="pg-rtxt">${h.rarity==="ssr"?"✨ ":""}${esc(h.combo.map(function(p){return p.memo;}).join(" 🎀 "))}</span><span class="pg-rarity-badge ${esc(RARITY_CLASSES[h.rarity])}">${esc(RARITY_NAMES[h.rarity])}</span>`;
+      row.onclick=function(idx){return function(){
+        var h2=results[idx];
+        lastCombo=h2.combo;lastRarity=h2.rarity;
+        restoreFromHistory({combo:h2.combo.map(function(p){return {text:p.text,memo:p.memo,cat:p.cat,rarity:p.rarity};}),rarity:h2.rarity,combined:h2.combined});
+      };}(i);
+      res.appendChild(row);
+    });
+    byId("pgCopyCombo").style.display="none";
+    byId("pgSaveImage").style.display="none";
+    byId("pgShareActions").style.display="none";
+    byId("pgAiLinks").style.display="none";
+    byId("pgImagePreview").style.display="none";
+    // 첫 번째 SSR의 이미지만 표시
+    var firstSsr=results.find(function(r){return r.rarity==="ssr";});
+    if(firstSsr){
+      loadImagePreview(firstSsr.combined);
+      byId("pgAiLinks").style.display="";
+      byId("pgAiPollinations").href="https://pollinations.ai/prompt/"+encodeURIComponent(firstSsr.combined.substring(0,400))+"?width=1024&height=1024&nologo=true";
+    }
+    var ssrCount=results.filter(function(r){return r.rarity==="ssr";}).length;
+    if(ssrCount>0){spawnParticles("ssr");toast("🎉 SSR "+ssrCount+"개! 축하해요!",false);}
+  }
+
+  
+
+  byId("pgFreeRefresh").onclick=function(){
+    var d=getCoinData();d.lastDate="";saveCoinData(d);refreshCoinUI();
+    toast("📅 무료 코인 5회 충전 완료!");
+  };
+
+  // ===== 커스텀 프롬프트 =====
+  var editingIdx=-1;
+
+  function openAddDialog(data){
+    var overlay=byId("pgModalOverlay");overlay.style.display="flex";
+    var sel=byId("modalCat");sel.innerHTML="";
+    CATS.forEach(function(c){
+      var o=document.createElement("option");o.value=c;o.textContent=c;
+      if(data&&data.cat===c)o.selected=true;
+      sel.appendChild(o);
+    });
+    byId("modalText").value=data?data.text:"";
+    byId("modalMemo").value=data?data.memo:"";
+    var raritySel=byId("modalRarity");
+    if(data&&data.rarity){raritySel.value=data.rarity;}else{raritySel.value="common";}
+    byId("pgModalTitle").textContent=data?"프롬프트 수정 ✨":"프롬프트 추가 ✨";
+    editingIdx=data?data._customIdx:-1;
+
+    byId("modalCancel").onclick=function(){overlay.style.display="none";};
+    byId("modalSave").onclick=function(){
+      var cat=byId("modalCat").value;
+      var text=byId("modalText").value.trim();
+      var memo=byId("modalMemo").value.trim();
+      var rarity=byId("modalRarity").value;
+      if(!text||!memo){toast("모든 항목을 입력해주세요 🎀",true);return;}
+      var obj={cat:cat,text:text,memo:memo,rarity:rarity,id:'c'+Date.now()};
+      if(editingIdx>=0){
+        customPrompts[editingIdx]=obj;
+      }else{
+        customPrompts.push(obj);
+      }
+      saveCustomPrompts();overlay.style.display="none";
+      renderGrid();renderFilters();updateCount();
+      toast(editingIdx>=0?"수정했어요! ✨":"추가했어요! ✨");
+    };
+  }
+
+  function deletePrompt(id,isCustom,idx){
+    if(!confirm("정말 삭제할까요? 😢"))return;
+    if(isCustom&&idx>=0){
+      customPrompts.splice(idx,1);
+      saveCustomPrompts();
+    }else{
+      deletedIds.add(id);
+      saveData(STORAGE_KEYS.deleted,Array.from(deletedIds));
+    }
+    renderGrid();renderFilters();updateCount();
+    toast("삭제했어요 🎀");
+  }
+
+  function updateCount(){
+    byId("pgCount").textContent="전체 "+getAllPrompts().length+"개 프롬프트 수록";
+  }
+
+  // ===== 브라우즈 =====
+  var curFilter="전체";
+  function renderFilters(){
+    var box=byId("pgFilters");box.innerHTML="";
+    ["전체"].concat(CATS).forEach(function(c){
+      var el=document.createElement("span");
+      el.className="pg-chip"+(curFilter===c?" active":"");
+      el.textContent=c;el.onclick=function(){
+        curFilter=c;renderFilters();renderGrid();
+      };
+      box.appendChild(el);
+    });
+    var addBtn=document.createElement("span");
+    addBtn.className="pg-chip";addBtn.textContent="+ 추가 ✨";
+    addBtn.style.borderColor="var(--pgac)";addBtn.style.color="var(--pgac)";
+    addBtn.onclick=function(){openAddDialog(null);};
+    box.appendChild(addBtn);
+  }
+
+  function renderGrid(){
+    var q=byId("pgSearch").value.trim().toLowerCase();
+    var grid=byId("pgGrid");grid.innerHTML="";
+    getAllPrompts().filter(function(p){return curFilter==="전체"||p.cat===curFilter;})
+      .filter(function(p){return !q||p.text.toLowerCase().indexOf(q)>=0||p.memo.toLowerCase().indexOf(q)>=0;})
+      .forEach(function(p){
+        var it=document.createElement("div");it.className="pg-item";
+        it.innerHTML='<span class="pg-icat">'+esc(p.cat)+'</span><span class="pg-itxt">'+esc(p.text)+'</span><span class="pg-imemo">'+esc(p.memo)+' <span class="pg-rarity-badge '+RARITY_CLASSES[p.rarity]+'">'+RARITY_NAMES[p.rarity]+'</span></span>';
+        var b=document.createElement("button");b.className="pg-icopy";b.textContent="📋 복사";
+        b.onclick=function(t){return function(){copyText(t);}}(p.text);
+        it.appendChild(b);
+        var act=document.createElement("div");act.className="pg-item-actions";
+        var eBtn=document.createElement("button");eBtn.textContent="수정";
+        eBtn.onclick=function(){
+          if(p.id&&p.id[0]==="c"){
+            openAddDialog(p);
+          }else{
+            var d={cat:p.cat,text:p.text,memo:p.memo,rarity:p.rarity,_customIdx:-1};
+            openAddDialog(d);
+          }
+        };
+        act.appendChild(eBtn);
+        var dBtn=document.createElement("button");dBtn.textContent="삭제";
+        dBtn.onclick=function(){
+          var isCustom=p.id&&p.id[0]==="c";
+          var idx=isCustom?p._customIdx:-1;
+          deletePrompt(p.id,isCustom,idx);
+        };
+        act.appendChild(dBtn);
+        it.appendChild(act);
+        grid.appendChild(it);
+      });
+  }
+
+  // ===== URL 해시로 프롬프트 복원 =====
+  function checkHash(){
+    var hash=window.location.hash;
+    if(hash&&hash.indexOf("#prompt=")===0){
+      var text=decodeURIComponent(hash.slice(8));
+      if(text){
+        var fakeCombo=[{text:text,memo:"URL에서 불러옴",cat:"",rarity:"common"}];
+        restoreFromHistory({combo:fakeCombo,rarity:"common",combined:text});
+      }
+    }
+  }
+
+  // ===== 초기화 =====
+  function init(){
+    renderToggles();renderFilters();renderGrid();updateCount();
+    refreshCoinUI();updateStatsUI();renderScratch();renderGallery();
+
+    // SSR확률UP 버튼
+    if(ssrUpActive)byId("pgSsrUp").classList.add("active");
+    byId("pgSsrUp").onclick=function(){
+      ssrUpActive=!ssrUpActive;
+      localStorage.setItem(STORAGE_KEYS.ssrUp,ssrUpActive?"1":"");
+      byId("pgSsrUp").classList.toggle("active",ssrUpActive);
+      toast(ssrUpActive?"✨ SSR확률UP 활성화!":"일반 확률로 복귀");
+    };
+
+    byId("pgRoll").onclick=doGacha;
+    byId("pgCopyCombo").onclick=function(){
+      if(lastCombo.length)copyText(lastCombo.map(function(p){return p.text;}).join(", "));
+    };
+    byId("pgSaveImage").onclick=saveAsImage;
+    byId("pgAddBtn").onclick=function(){openAddDialog(null);};
+    byId("pgHistoryToggle").onclick=function(){
+      historyVisible=!historyVisible;
+      byId("pgHistoryToggle").textContent=historyVisible?"📜 히스토리 닫기":"📜 히스토리";
+      renderHistory();
+    };
+    byId("pgSearch").oninput=renderGrid;
+    checkHash();
+    window.addEventListener("hashchange",checkHash);
+  }
+
+  init();
+})();
+</script>
+</body></html>
