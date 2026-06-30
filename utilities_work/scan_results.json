@@ -1,0 +1,9011 @@
+[
+ {
+  "file": "100days.html",
+  "size": 14235,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 962,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "1rm-calculator.html",
+  "size": 14605,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1022,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "about.html",
+  "size": 26693,
+  "script_opens": 11,
+  "script_closes": 11,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 4,
+  "defined_ids": 4,
+  "used_ids": 3,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1794,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "acquisition-tax.html",
+  "size": 15004,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 888,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "age.html",
+  "size": 15564,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 908,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "alcohol-calorie.html",
+  "size": 14276,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 960,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "anagram.html",
+  "size": 14070,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1052,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "analyzer.html",
+  "size": 14925,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1159,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "angle-units.html",
+  "size": 14548,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1194,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "annual-leave.html",
+  "size": 14630,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 832,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "api-key.html",
+  "size": 14894,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "getElementById",
+   "toggle",
+   "writeText"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 1,
+  "defined_ids": 5,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1114,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "area-converter.html",
+  "size": 14548,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1185,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "area-units.html",
+  "size": 14586,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1218,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "ascii-art.html",
+  "size": 15654,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1929,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "aspect-crop.html",
+  "size": 15322,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1790,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "average-cost.html",
+  "size": 14419,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1079,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "bac-calculator.html",
+  "size": 14242,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 904,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "balance-game.html",
+  "size": 14581,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1372,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "barcode-generator.html",
+  "size": 18712,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 0,
+  "defined_ids": 12,
+  "used_ids": 10,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 2489,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "base-converter.html",
+  "size": 14570,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1198,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "base64.html",
+  "size": 15241,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1033,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "baseconvert.html",
+  "size": 15702,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1326,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "basic-calc.html",
+  "size": 18184,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 7,
+  "funcs_defined_count": 8,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "binary.html",
+  "size": 14575,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 765,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "bingo-game.html",
+  "size": 16431,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 3,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "bingo-generator.html",
+  "size": 14079,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 839,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "biorhythm-calc.html",
+  "size": 16606,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "birth-flower.html",
+  "size": 14117,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1127,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "birth-stone.html",
+  "size": 13763,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 609,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "birthday-dday.html",
+  "size": 14041,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 750,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "bitwise-calc.html",
+  "size": 14845,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1141,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "blood-sugar.html",
+  "size": 14266,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 961,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "blood-type-child.html",
+  "size": 14227,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1192,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "blur-image.html",
+  "size": 15128,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1609,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "bmi.html",
+  "size": 15253,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 716,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "bmr-calculator.html",
+  "size": 15437,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1310,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "body-fat-calculator.html",
+  "size": 15546,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1415,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "body-fat.html",
+  "size": 15081,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1156,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "box-shadow-generator.html",
+  "size": 13797,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 761,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "box-shadow.html",
+  "size": 30157,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 5,
+  "funcs_defined_count": 6,
+  "defined_ids": 17,
+  "used_ids": 16,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2378,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "bp-classifier.html",
+  "size": 14281,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 965,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "bpm-tapper.html",
+  "size": 14045,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1011,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "brightness-contrast.html",
+  "size": 15239,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1674,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "caesar.html",
+  "size": 15070,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1063,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "caffeine-calculator.html",
+  "size": 13871,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 796,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "calorie-exercise-time.html",
+  "size": 14534,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1071,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "calorie.html",
+  "size": 15765,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1369,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "case-converter-pro.html",
+  "size": 19371,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 2953,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "case-converter.html",
+  "size": 14677,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 3,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 903,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "cat-age-calc.html",
+  "size": 15099,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "cat-age.html",
+  "size": 14246,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 961,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "category.html",
+  "size": 98320,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 6,
+  "defined_ids": 8,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 30,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "child-height.html",
+  "size": 14761,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1184,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "circle-calc.html",
+  "size": 16439,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 2,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "circle-profile.html",
+  "size": 15376,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1824,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "clothing-size.html",
+  "size": 14616,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1223,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "cocktail-recommender.html",
+  "size": 14332,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1299,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "coin-flip.html",
+  "size": 13728,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 689,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "collage-maker.html",
+  "size": 15717,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2183,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color-blindness.html",
+  "size": 21228,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 7,
+  "defined_ids": 13,
+  "used_ids": 12,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 3329,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color-extractor.html",
+  "size": 18160,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "e",
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 0,
+  "defined_ids": 10,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2751,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color-invert.html",
+  "size": 15138,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1612,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color-mixer.html",
+  "size": 15934,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 3,
+  "defined_ids": 13,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2478,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color-name.html",
+  "size": 13728,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 758,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color-palette-extractor.html",
+  "size": 16197,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2035,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color-palette.html",
+  "size": 15108,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1188,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color-replace.html",
+  "size": 15514,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1731,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color-schemes.html",
+  "size": 13780,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 776,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color-shades.html",
+  "size": 13775,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 773,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color-temperature.html",
+  "size": 14296,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 728,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "color.html",
+  "size": 15271,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 2,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 931,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "compound-interest.html",
+  "size": 29980,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 6,
+  "defined_ids": 12,
+  "used_ids": 11,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2249,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "compress.html",
+  "size": 15555,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1514,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "concentration-ppm.html",
+  "size": 14667,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1238,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "contact.html",
+  "size": 27500,
+  "script_opens": 11,
+  "script_closes": 11,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 5,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1542,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "contrast-checker.html",
+  "size": 32180,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 9,
+  "defined_ids": 15,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 3484,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "cookie-parser.html",
+  "size": 20976,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 0,
+  "defined_ids": 21,
+  "used_ids": 20,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 3447,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "cooking-units.html",
+  "size": 14588,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1210,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "coordinate-converter.html",
+  "size": 14638,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1214,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "countdown-timer.html",
+  "size": 14544,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 770,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "countdown.html",
+  "size": 16544,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 5,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 557,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "counter.html",
+  "size": 16382,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1414,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "cron.html",
+  "size": 15272,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 922,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "cronparser.html",
+  "size": 14899,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1205,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-aspect-ratio.html",
+  "size": 13785,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 764,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-bg-pattern.html",
+  "size": 13769,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 768,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-border-radius.html",
+  "size": 13818,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 776,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-border.html",
+  "size": 13715,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 757,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-button.html",
+  "size": 13729,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 759,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-card.html",
+  "size": 13713,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 759,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-color-names.html",
+  "size": 13770,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 760,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-easing.html",
+  "size": 13763,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 769,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-flexbox.html",
+  "size": 13744,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 762,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-grid.html",
+  "size": 13705,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 755,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-minifier.html",
+  "size": 14861,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1062,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-scrollbar.html",
+  "size": 13726,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 755,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-speech-bubble.html",
+  "size": 13766,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 757,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-spinner.html",
+  "size": 13752,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 765,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-text-shadow.html",
+  "size": 13786,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 768,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-text-stroke.html",
+  "size": 13768,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 756,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "css-triangle.html",
+  "size": 13727,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 756,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "csv-viewer.html",
+  "size": 21542,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 4,
+  "defined_ids": 11,
+  "used_ids": 10,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 4537,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "currency-converter.html",
+  "size": 15614,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1259,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "daily-question.html",
+  "size": 14263,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1272,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "daily-water-calc.html",
+  "size": 15508,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "daily-water.html",
+  "size": 14315,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 995,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "daily-zodiac.html",
+  "size": 14587,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1581,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "data-speed.html",
+  "size": 14646,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1251,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "data-units.html",
+  "size": 14598,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1226,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "date-diff.html",
+  "size": 14589,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1104,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "date-stamp.html",
+  "size": 13896,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 847,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "date.html",
+  "size": 15513,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1180,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "days-alive.html",
+  "size": 14241,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 955,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "deposit-interest.html",
+  "size": 15006,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1160,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "depreciation.html",
+  "size": 14920,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1118,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "dice-coin.html",
+  "size": 13767,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 734,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "dice-ndm.html",
+  "size": 14023,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 856,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "diet-calculator.html",
+  "size": 14308,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 967,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "diff.html",
+  "size": 15962,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1341,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "dilution.html",
+  "size": 14463,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1053,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "discharge-date.html",
+  "size": 14279,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 966,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "discount.html",
+  "size": 15303,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1079,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "distance-calc.html",
+  "size": 16662,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 3,
+  "defined_ids": 11,
+  "used_ids": 10,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "dns-lookup.html",
+  "size": 14718,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1104,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "dog-age-calc.html",
+  "size": 15408,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "dog-age.html",
+  "size": 14246,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 961,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "drawing-prompt.html",
+  "size": 14525,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1528,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "dsr-calculator.html",
+  "size": 14707,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 913,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "duotone.html",
+  "size": 15486,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1683,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "dutch-pay.html",
+  "size": 14576,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1028,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "edge-detection.html",
+  "size": 16152,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1673,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "emboss.html",
+  "size": 15544,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1649,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "emoji.html",
+  "size": 14855,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 5,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1442,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "encrypt-file.html",
+  "size": 20739,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "async",
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 0,
+  "defined_ids": 12,
+  "used_ids": 11,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 4761,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "energy-units.html",
+  "size": 14629,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1236,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "equation-solver.html",
+  "size": 14424,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1023,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "esignature.html",
+  "size": 14039,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 751,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "event-countdown.html",
+  "size": 14156,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 824,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "exercise-calorie.html",
+  "size": 14851,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1178,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "exif-remover.html",
+  "size": 18026,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "e",
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 0,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2417,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "exif-viewer.html",
+  "size": 16363,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2075,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "exponent-calc.html",
+  "size": 15558,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "face-blur.html",
+  "size": 15556,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1768,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "factor-calc.html",
+  "size": 15631,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "factorial.html",
+  "size": 14053,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 700,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "fantasy-name.html",
+  "size": 14081,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1083,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "favicon-generator.html",
+  "size": 29714,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 5,
+  "funcs_defined_count": 6,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2181,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "fibonacci.html",
+  "size": 14139,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 687,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "film-grain.html",
+  "size": 15497,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1658,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "find-replace.html",
+  "size": 20266,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 2,
+  "defined_ids": 17,
+  "used_ids": 16,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 3375,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "font-converter.html",
+  "size": 15086,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1144,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "force-units.html",
+  "size": 14567,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1206,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "fraction-calc.html",
+  "size": 15984,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1439,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "fraction-decimal.html",
+  "size": 14620,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1218,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "frequency-units.html",
+  "size": 14635,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1230,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "fuel-cost.html",
+  "size": 14908,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1149,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "fuel-efficiency.html",
+  "size": 14703,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1265,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "gacha-simulator.html",
+  "size": 14031,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 860,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "gamma-correction.html",
+  "size": 15446,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1664,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "gcd-lcm.html",
+  "size": 14404,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1052,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "gift-tax.html",
+  "size": 14382,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1140,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "glassmorphism.html",
+  "size": 13770,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 770,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "gold-weight.html",
+  "size": 14625,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1234,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "gpa-calculator.html",
+  "size": 14284,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 955,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "gpa.html",
+  "size": 15976,
+  "script_opens": 9,
+  "script_closes": 8,
+  "script_open_count": 1,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1649,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "grade-calculator.html",
+  "size": 14640,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1057,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "gradient-border.html",
+  "size": 13764,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 761,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "gradient-generator.html",
+  "size": 29765,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 5,
+  "funcs_defined_count": 6,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2185,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "gradient-overlay.html",
+  "size": 15392,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1837,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "gradient-text.html",
+  "size": 13756,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 764,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "grayscale-sepia.html",
+  "size": 15203,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1542,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "grid-splitter.html",
+  "size": 15355,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1821,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "guide-developer.html",
+  "size": 22532,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 4,
+  "used_ids": 3,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 4589,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "guide-image.html",
+  "size": 21646,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 4,
+  "used_ids": 3,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 5045,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "guide-password.html",
+  "size": 21278,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 4,
+  "used_ids": 3,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 4661,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "guide-productivity.html",
+  "size": 23473,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 4,
+  "used_ids": 3,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 6103,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "guide-seo.html",
+  "size": 23256,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 4,
+  "used_ids": 3,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 5309,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "half-life.html",
+  "size": 14678,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1105,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "hanja-numbers.html",
+  "size": 14605,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1218,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "hash.html",
+  "size": 14569,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 905,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "heart-age.html",
+  "size": 14258,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 965,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "heart-rate-zones.html",
+  "size": 14298,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 961,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "heat-index-calc.html",
+  "size": 16417,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 3,
+  "defined_ids": 11,
+  "used_ids": 10,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "heic-to-jpg.html",
+  "size": 15502,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1885,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "hex-rgb-hsl-converter.html",
+  "size": 13822,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 766,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "hourly-annual.html",
+  "size": 14629,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1067,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "hourly-salary.html",
+  "size": 14488,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1181,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "hourly.html",
+  "size": 15000,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1148,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "html-formatter.html",
+  "size": 18998,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 11,
+  "used_ids": 10,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 2684,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "html.html",
+  "size": 14868,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 896,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "http-headers.html",
+  "size": 20242,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 0,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 3653,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "http-status.html",
+  "size": 15994,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2251,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "hue-rotate.html",
+  "size": 15140,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1617,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "id-photo-maker.html",
+  "size": 15445,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1899,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "ideal-weight-calc.html",
+  "size": 15728,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "ideal-weight.html",
+  "size": 14253,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 958,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-border.html",
+  "size": 15258,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1730,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-compare.html",
+  "size": 16138,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1869,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-compressor.html",
+  "size": 15674,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2007,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-converter.html",
+  "size": 17960,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "e",
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 10,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2463,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-crop.html",
+  "size": 15212,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1713,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-filter.html",
+  "size": 15280,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1780,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-flip.html",
+  "size": 15145,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1619,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-info.html",
+  "size": 15955,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1902,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-merge.html",
+  "size": 15195,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1667,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-quality.html",
+  "size": 15711,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2040,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-resize.html",
+  "size": 15634,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1485,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-rotate-flip.html",
+  "size": 15290,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1728,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-text-overlay.html",
+  "size": 15400,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1846,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-to-base64.html",
+  "size": 14920,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "getElementById",
+   "toggle",
+   "writeText"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1060,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "image-to-webp.html",
+  "size": 15433,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1816,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "images-to-pdf.html",
+  "size": 19141,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "income-tax.html",
+  "size": 14476,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1199,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "index.html",
+  "size": 138347,
+  "script_opens": 11,
+  "script_closes": 11,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function"
+  ],
+  "funcs_called_count": 5,
+  "funcs_defined_count": 9,
+  "defined_ids": 21,
+  "used_ids": 14,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 4310,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "inheritance-tax.html",
+  "size": 14442,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 840,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "initial-avatar.html",
+  "size": 15351,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 11,
+  "used_ids": 10,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2078,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "instagram-grid.html",
+  "size": 15621,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1825,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "installment-fee.html",
+  "size": 14998,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1174,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "insurance-4major.html",
+  "size": 14895,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1211,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "intermittent-fasting.html",
+  "size": 14339,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 970,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "interval-timer.html",
+  "size": 18960,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 7,
+  "defined_ids": 14,
+  "used_ids": 11,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "invoice.html",
+  "size": 15529,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1306,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "ip-lookup.html",
+  "size": 14832,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1204,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "json-schema-validator.html",
+  "size": 20326,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 3124,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "json.html",
+  "size": 14935,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle",
+   "writeText"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 795,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "jsoncsv.html",
+  "size": 15598,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1366,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "jwt.html",
+  "size": 15882,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1514,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "kakaotalk-photo-recovery.html",
+  "size": 15531,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1781,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "keyword-density.html",
+  "size": 14911,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1339,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "korean-name-gen.html",
+  "size": 14139,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1118,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "ladder-game.html",
+  "size": 16262,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "lcm-gcf-calc.html",
+  "size": 16690,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "remove"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 4,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "leap-year.html",
+  "size": 14082,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 975,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "length-converter.html",
+  "size": 15268,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1123,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "list-randomizer.html",
+  "size": 15256,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1157,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "loan-calculator.html",
+  "size": 15388,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1244,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "loan.html",
+  "size": 15958,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1334,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "log-calc.html",
+  "size": 16279,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 3,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "longevity.html",
+  "size": 14252,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 962,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "lorem.html",
+  "size": 15057,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "getElementById",
+   "toggle",
+   "writeText"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1055,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "lottery-draw.html",
+  "size": 16112,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "lotto-generator.html",
+  "size": 13932,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 678,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "ltv-calculator.html",
+  "size": 14675,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1045,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "lucky-color.html",
+  "size": 14323,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1277,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "lucky-number.html",
+  "size": 13961,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 964,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "macro-calculator.html",
+  "size": 14296,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 955,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "marathon-predictor.html",
+  "size": 13933,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 850,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "margin-calculator.html",
+  "size": 14675,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1062,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "margin-markup.html",
+  "size": 14615,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1065,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "markdown.html",
+  "size": 15199,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1152,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "material-colors.html",
+  "size": 13781,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 767,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "matrix-2x2.html",
+  "size": 14902,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1250,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "mbti-info.html",
+  "size": 14262,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1268,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "mean-median-mode.html",
+  "size": 15784,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "meme-caption.html",
+  "size": 15550,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2032,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "mesh-gradient.html",
+  "size": 13766,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 771,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "meta-tag-generator.html",
+  "size": 31220,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 5,
+  "funcs_defined_count": 7,
+  "defined_ids": 12,
+  "used_ids": 11,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 2525,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "min-wage.html",
+  "size": 14301,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1040,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "modulo-calc.html",
+  "size": 16082,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 3,
+  "defined_ids": 11,
+  "used_ids": 10,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "morse.html",
+  "size": 14702,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1278,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "mosaic-mask.html",
+  "size": 15384,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1864,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "mosaic-pixelate.html",
+  "size": 15422,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1869,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "name-compatibility.html",
+  "size": 14064,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 890,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "name-strokes.html",
+  "size": 13951,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 847,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "nap-time.html",
+  "size": 14052,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 773,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "neomorphism.html",
+  "size": 13734,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 762,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "noise-reduction.html",
+  "size": 15732,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1639,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "notepad.html",
+  "size": 15354,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggle"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 2,
+  "defined_ids": 5,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1209,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "number-baseball.html",
+  "size": 14116,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 941,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "number-sequence.html",
+  "size": 14633,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1057,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "number-sum.html",
+  "size": 14355,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 989,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "number-to-english.html",
+  "size": 13903,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 885,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "number-to-korean-text.html",
+  "size": 14641,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1214,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "number-to-korean.html",
+  "size": 14435,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1202,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "numbertowords.html",
+  "size": 15069,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1347,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "ohms-law.html",
+  "size": 14804,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 8,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1303,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "original-price.html",
+  "size": 14604,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1042,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "overtime-pay.html",
+  "size": 14617,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1059,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "ovulation-calculator.html",
+  "size": 14324,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 967,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pack-years.html",
+  "size": 14253,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 959,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "paint-calculator.html",
+  "size": 14308,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 962,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "parking-fee.html",
+  "size": 14466,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1177,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "password-strength.html",
+  "size": 31719,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 7,
+  "defined_ids": 13,
+  "used_ids": 11,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 3783,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "password.html",
+  "size": 27275,
+  "script_opens": 12,
+  "script_closes": 12,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggle"
+  ],
+  "funcs_called_count": 5,
+  "funcs_defined_count": 5,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1607,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pdf-compress.html",
+  "size": 19119,
+  "script_opens": 10,
+  "script_closes": 10,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pdf-merge.html",
+  "size": 17703,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pdf-page-delete.html",
+  "size": 19145,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pdf-page-extract.html",
+  "size": 18786,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pdf-page-numbers.html",
+  "size": 18043,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pdf-rotate.html",
+  "size": 17744,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pdf-split.html",
+  "size": 18552,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pdf-text-extract.html",
+  "size": 17879,
+  "script_opens": 10,
+  "script_closes": 10,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pdf-to-images.html",
+  "size": 18850,
+  "script_opens": 10,
+  "script_closes": 10,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pdf-to-text.html",
+  "size": 17849,
+  "script_opens": 10,
+  "script_closes": 10,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pdf-watermark.html",
+  "size": 18090,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "penalty-roulette.html",
+  "size": 14000,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1002,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "percentage.html",
+  "size": 15468,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 2,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1320,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "perm-comb-calc.html",
+  "size": 15780,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 3,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "perm-comb.html",
+  "size": 14549,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 704,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "perspective-crop.html",
+  "size": 15131,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1572,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "photo-frame.html",
+  "size": 15353,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1819,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pii-masking.html",
+  "size": 14025,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 967,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "placeholder-image.html",
+  "size": 15258,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 2102,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "png-jpg-converter.html",
+  "size": 15504,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1867,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pngtojpg.html",
+  "size": 15738,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1639,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "polaroid-frame.html",
+  "size": 15485,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1939,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pomodoro.html",
+  "size": 31473,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 6,
+  "funcs_defined_count": 9,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2749,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "posterize.html",
+  "size": 15476,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1706,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "power-root.html",
+  "size": 14417,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1058,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "power-units.html",
+  "size": 14590,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1218,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "ppi-calculator.html",
+  "size": 14675,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1099,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "pregnancy-calc.html",
+  "size": 15539,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pregnancy-weeks.html",
+  "size": 14308,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 974,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "prepayment-fee.html",
+  "size": 15023,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1184,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "present-value.html",
+  "size": 14958,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1164,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "pressure-units.html",
+  "size": 14659,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1248,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "prime-checker.html",
+  "size": 16155,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 3,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "privacy.html",
+  "size": 30951,
+  "script_opens": 11,
+  "script_closes": 11,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 4,
+  "defined_ids": 4,
+  "used_ids": 3,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 4402,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "protein-calculator.html",
+  "size": 14510,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1084,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "px-pt-mm.html",
+  "size": 14631,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1249,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "pythagoras.html",
+  "size": 14396,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1004,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "pythagorean-calc.html",
+  "size": 15972,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "qrcode.html",
+  "size": 14883,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 920,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "quadratic.html",
+  "size": 14808,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 850,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "quarter-calculator.html",
+  "size": 14125,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 950,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "quit-smoking-savings.html",
+  "size": 14326,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 967,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "quote.html",
+  "size": 29350,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 6,
+  "funcs_defined_count": 8,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2921,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random-alphanumeric.html",
+  "size": 13998,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 843,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random-color.html",
+  "size": 13731,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 757,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random-date.html",
+  "size": 14005,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1018,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random-english.html",
+  "size": 14149,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1136,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random-line.html",
+  "size": 13987,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1003,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random-mbti.html",
+  "size": 14277,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1268,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random-mission.html",
+  "size": 14117,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1115,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random-name.html",
+  "size": 13870,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 896,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random-nickname.html",
+  "size": 14128,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1105,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random-number.html",
+  "size": 13849,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 845,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random-quote.html",
+  "size": 15536,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2563,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "random.html",
+  "size": 15639,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 4,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 958,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "randomword.html",
+  "size": 14810,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 5,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1256,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "ratio-calc.html",
+  "size": 17534,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 4,
+  "defined_ids": 14,
+  "used_ids": 13,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "ratio-simplify.html",
+  "size": 14432,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1039,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "reading-speed.html",
+  "size": 13976,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 974,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "recipe-scaling.html",
+  "size": 14296,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 963,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "red-eye.html",
+  "size": 15335,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1768,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "regex.html",
+  "size": 14552,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 838,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "relationship-days.html",
+  "size": 14345,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 969,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "remove-bg.html",
+  "size": 15466,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1725,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "rent-vs-buy.html",
+  "size": 15511,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1491,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "resize-exact.html",
+  "size": 15172,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1635,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "retirement-date.html",
+  "size": 14274,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 954,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "reverse.html",
+  "size": 14684,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 731,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "rgb-cmyk.html",
+  "size": 13739,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 764,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "robots-txt-generator.html",
+  "size": 21291,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 11,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 4286,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "roman-numerals.html",
+  "size": 14577,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1198,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "root-calc.html",
+  "size": 15825,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "rot13.html",
+  "size": 28348,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 5,
+  "funcs_defined_count": 6,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1460,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "roulette.html",
+  "size": 16389,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 3,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "rounded-corners.html",
+  "size": 13981,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 894,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "rounding.html",
+  "size": 14464,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1091,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "rpg-stats.html",
+  "size": 14304,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1309,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "rps-game.html",
+  "size": 13816,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 850,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "running-pace-calc.html",
+  "size": 15496,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "running-pace.html",
+  "size": 15235,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1381,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "salary-hourly.html",
+  "size": 14250,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 972,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "saturation.html",
+  "size": 15115,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1614,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "scientific-calc.html",
+  "size": 20684,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 7,
+  "funcs_defined_count": 8,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "scientific-notation.html",
+  "size": 15772,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 3,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "screen-ratio.html",
+  "size": 14424,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1036,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "screen-size.html",
+  "size": 14621,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1127,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "screen.html",
+  "size": 15646,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1881,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "seat-assignment.html",
+  "size": 14098,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1097,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "sepia-tone.html",
+  "size": 15078,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1597,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "sharpen.html",
+  "size": 15950,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1720,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "shop-name.html",
+  "size": 14055,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1073,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "simple-interest.html",
+  "size": 14906,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1095,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "skin-smooth.html",
+  "size": 15127,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1629,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "sleep-calculator.html",
+  "size": 14433,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1062,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "sleep-cycle.html",
+  "size": 15684,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1483,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "slope-converter.html",
+  "size": 14595,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1206,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "slot-machine.html",
+  "size": 13844,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 872,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "slugify.html",
+  "size": 18625,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 1,
+  "defined_ids": 11,
+  "used_ids": 10,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 2624,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "sort.html",
+  "size": 15063,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1029,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "speed-converter.html",
+  "size": 15460,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1249,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "speed-distance-time.html",
+  "size": 14936,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1282,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "speed-units.html",
+  "size": 14575,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1212,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "spirit-animal.html",
+  "size": 14205,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1207,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "sql.html",
+  "size": 14741,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1136,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "square-image.html",
+  "size": 15266,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1751,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "ssl-checker.html",
+  "size": 14969,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1142,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "stats-calc.html",
+  "size": 15613,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1580,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "std-dev-calc.html",
+  "size": 16178,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "std-dev.html",
+  "size": 14245,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 761,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "steps-calc.html",
+  "size": 15538,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "steps-calorie.html",
+  "size": 14337,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1034,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "stock-profit.html",
+  "size": 14970,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1173,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "stopwatch.html",
+  "size": 15602,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 5,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1511,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "subnet-calc.html",
+  "size": 14992,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1150,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "subscription-total.html",
+  "size": 14603,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1027,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "svg-to-png.html",
+  "size": 15293,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1457,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "svg-wave.html",
+  "size": 13717,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 756,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "tap-counter.html",
+  "size": 13791,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 834,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "tarot-card.html",
+  "size": 15821,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2815,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "tax.html",
+  "size": 16150,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1689,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "tdee-calculator.html",
+  "size": 16019,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1486,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "team-generator.html",
+  "size": 15578,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "teeth-whiten.html",
+  "size": 15571,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1981,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "temperature-converter.html",
+  "size": 15036,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 3,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1211,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "temperature.html",
+  "size": 14870,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1068,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "terms.html",
+  "size": 27906,
+  "script_opens": 11,
+  "script_closes": 11,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 4,
+  "defined_ids": 4,
+  "used_ids": 3,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2523,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "text-anonymizer.html",
+  "size": 14029,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 965,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "text-favicon.html",
+  "size": 13727,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 759,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "text-image-card.html",
+  "size": 15669,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 2,
+  "defined_ids": 9,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 2359,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "text.html",
+  "size": 42230,
+  "script_opens": 13,
+  "script_closes": 13,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggle"
+  ],
+  "funcs_called_count": 9,
+  "funcs_defined_count": 11,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 9473,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "thumbnail-maker.html",
+  "size": 15173,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1640,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "tile-calculator.html",
+  "size": 14287,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 957,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "time-12-24.html",
+  "size": 14187,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1021,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "time-units.html",
+  "size": 14538,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1194,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "time.html",
+  "size": 15374,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1194,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "timestamp.html",
+  "size": 15526,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "getElementById",
+   "toggle"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 2,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1195,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "timezone.html",
+  "size": 15585,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 10,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1544,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "tip-calculator.html",
+  "size": 15906,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 10,
+  "used_ids": 9,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1398,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "today-fortune.html",
+  "size": 14235,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1260,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "torque-converter.html",
+  "size": 14626,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1224,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "traditional-units.html",
+  "size": 14660,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1233,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "transparent-fill.html",
+  "size": 15213,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1651,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "travel-roulette.html",
+  "size": 14397,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1370,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "triangle-area.html",
+  "size": 14409,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 992,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "triangle-calc.html",
+  "size": 21901,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 16,
+  "used_ids": 12,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 4059,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "trig-calculator.html",
+  "size": 14724,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1162,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "truth-dare.html",
+  "size": 14196,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 788,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "typingtest.html",
+  "size": 15948,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 2,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1264,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "unicode.html",
+  "size": 14738,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 973,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "unique.html",
+  "size": 15357,
+  "script_opens": 9,
+  "script_closes": 9,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 2,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1428,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "unit-price-compare.html",
+  "size": 15346,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1118,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "unit-price.html",
+  "size": 14532,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1015,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "unit.html",
+  "size": 16065,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggle"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1989,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "url-shortener.html",
+  "size": 15015,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 1175,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "url.html",
+  "size": 14665,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 753,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "urlparser.html",
+  "size": 14921,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1204,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "uuid.html",
+  "size": 14693,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "getElementById",
+   "toggle",
+   "writeText"
+  ],
+  "funcs_called_count": 4,
+  "funcs_defined_count": 2,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 723,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "vector-2d.html",
+  "size": 15010,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1274,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "vignette.html",
+  "size": 15590,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1737,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "volume-3d.html",
+  "size": 14922,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1246,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "volume-units.html",
+  "size": 14627,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1233,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "watermark-text.html",
+  "size": 15266,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1751,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "wcag-contrast.html",
+  "size": 13770,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 766,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "webp-converter.html",
+  "size": 15078,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1369,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "webp-to-jpg.html",
+  "size": 15472,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1858,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "wedding-anniversary.html",
+  "size": 14311,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 960,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "week-number.html",
+  "size": 14213,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 999,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "weekday-count.html",
+  "size": 14977,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 888,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "weekday-finder.html",
+  "size": 14179,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 976,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "weekly-allowance.html",
+  "size": 14250,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 958,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "weight-converter.html",
+  "size": 14612,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1216,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "weighted-average.html",
+  "size": 14809,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1128,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "white-bg-transparent.html",
+  "size": 15440,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1813,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "white-noise.html",
+  "size": 17352,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 2,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "whitespace-cleaner.html",
+  "size": 18797,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 3,
+  "funcs_defined_count": 1,
+  "defined_ids": 14,
+  "used_ids": 13,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 2692,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "whois-lookup.html",
+  "size": 14811,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1161,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "whr-calculator.html",
+  "size": 14237,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 923,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "wifi-qr.html",
+  "size": 14181,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 888,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "win-rate.html",
+  "size": 14514,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1014,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "word-cloud.html",
+  "size": 17464,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 3,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "wordscramble.html",
+  "size": 14817,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1100,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "work-hours.html",
+  "size": 15016,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 8,
+  "used_ids": 7,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1238,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "workdays-calculator.html",
+  "size": 14313,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 6,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 962,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "workout-recommender.html",
+  "size": 14170,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 832,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "world-clock.html",
+  "size": 15828,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 3,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 0,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "writing-prompt.html",
+  "size": 14518,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1513,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "yaml-json.html",
+  "size": 17737,
+  "script_opens": 8,
+  "script_closes": 8,
+  "script_open_count": 0,
+  "missing_functions": [
+   "function",
+   "toggleFaq"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 0,
+  "defined_ids": 9,
+  "used_ids": 8,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": true,
+  "main_text_len": 2208,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "year-progress.html",
+  "size": 14198,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 1,
+  "defined_ids": 7,
+  "used_ids": 4,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 894,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "yes-no.html",
+  "size": 13850,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 893,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "zodiac-age.html",
+  "size": 14069,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1049,
+  "duplicated_ids": 0
+ },
+ {
+  "file": "zodiac-calculator.html",
+  "size": 14497,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 2,
+  "funcs_defined_count": 1,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 986,
+  "duplicated_ids": 1
+ },
+ {
+  "file": "zodiac-compatibility.html",
+  "size": 14194,
+  "script_opens": 7,
+  "script_closes": 7,
+  "script_open_count": 0,
+  "missing_functions": [
+   "toggle"
+  ],
+  "funcs_called_count": 1,
+  "funcs_defined_count": 0,
+  "defined_ids": 6,
+  "used_ids": 5,
+  "undefined_used_ids": [],
+  "has_undefined_marker": false,
+  "has_todo": false,
+  "main_text_len": 1150,
+  "duplicated_ids": 0
+ }
+]

@@ -1,0 +1,666 @@
+[
+  {
+    "file": "100days.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "about.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "age.html",
+    "missing": [
+      "months",
+      "days"
+    ]
+  },
+  {
+    "file": "alcohol-calorie.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "angle-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "area-converter.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "area-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "base-converter.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "birth-flower.html",
+    "missing": [
+      "v1"
+    ]
+  },
+  {
+    "file": "birth-stone.html",
+    "missing": [
+      "v1"
+    ]
+  },
+  {
+    "file": "blood-sugar.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "blood-type-child.html",
+    "missing": [
+      "v1",
+      "v2"
+    ]
+  },
+  {
+    "file": "bmi.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "box-shadow.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "bp-classifier.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "cat-age.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "clothing-size.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "color-mixer.html",
+    "missing": [
+      "genBtn",
+      "result",
+      "fileInput"
+    ]
+  },
+  {
+    "file": "color-temperature.html",
+    "missing": [
+      "v1"
+    ]
+  },
+  {
+    "file": "compound-interest.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "concentration-ppm.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "contact.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "contrast-checker.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "cooking-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "coordinate-converter.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "csv-viewer.html",
+    "missing": [
+      "th",
+      "td"
+    ]
+  },
+  {
+    "file": "daily-zodiac.html",
+    "missing": [
+      "v1"
+    ]
+  },
+  {
+    "file": "data-speed.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "data-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "date-stamp.html",
+    "missing": [
+      "val",
+      "input"
+    ]
+  },
+  {
+    "file": "days-alive.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "dice-ndm.html",
+    "missing": [
+      "v1",
+      "v2"
+    ]
+  },
+  {
+    "file": "diet-calculator.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "discharge-date.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "discount.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "dog-age.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "energy-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "favicon-generator.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "force-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "fraction-decimal.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "frequency-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "fuel-efficiency.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "gold-weight.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "gpa-calculator.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "gpa.html",
+    "missing": [
+      "input",
+      "select"
+    ]
+  },
+  {
+    "file": "gradient-generator.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "hanja-numbers.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "heart-age.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "heart-rate-zones.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "hourly-salary.html",
+    "missing": [
+      "val",
+      "input"
+    ]
+  },
+  {
+    "file": "ideal-weight.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "initial-avatar.html",
+    "missing": [
+      "genBtn",
+      "result",
+      "fileInput"
+    ]
+  },
+  {
+    "file": "intermittent-fasting.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "list-randomizer.html",
+    "missing": [
+      "actionBtn",
+      "v1",
+      "result"
+    ]
+  },
+  {
+    "file": "loan.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "longevity.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "lottery-draw.html",
+    "missing": [
+      "lotResult",
+      "actionBtn"
+    ]
+  },
+  {
+    "file": "lucky-number.html",
+    "missing": [
+      "v1"
+    ]
+  },
+  {
+    "file": "macro-calculator.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "meta-tag-generator.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "name-compatibility.html",
+    "missing": [
+      "v1",
+      "v2"
+    ]
+  },
+  {
+    "file": "name-strokes.html",
+    "missing": [
+      "v1"
+    ]
+  },
+  {
+    "file": "number-baseball.html",
+    "missing": [
+      "v1",
+      "v2"
+    ]
+  },
+  {
+    "file": "number-to-korean-text.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "ovulation-calculator.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "pack-years.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "paint-calculator.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "parking-fee.html",
+    "missing": [
+      "val",
+      "input"
+    ]
+  },
+  {
+    "file": "password-strength.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "password.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "pii-masking.html",
+    "missing": [
+      "v1"
+    ]
+  },
+  {
+    "file": "placeholder-image.html",
+    "missing": [
+      "result",
+      "fileInput"
+    ]
+  },
+  {
+    "file": "pomodoro.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "power-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "pregnancy-weeks.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "pressure-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "privacy.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "px-pt-mm.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "quit-smoking-savings.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "quote.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "random-alphanumeric.html",
+    "missing": [
+      "v1"
+    ]
+  },
+  {
+    "file": "random-date.html",
+    "missing": [
+      "v1",
+      "v2"
+    ]
+  },
+  {
+    "file": "reading-speed.html",
+    "missing": [
+      "v1",
+      "v2"
+    ]
+  },
+  {
+    "file": "recipe-scaling.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "relationship-days.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "retirement-date.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "robots-txt-generator.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "roman-numerals.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "rot13.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "roulette.html",
+    "missing": [
+      "rouletteItems",
+      "rouletteResult",
+      "actionBtn"
+    ]
+  },
+  {
+    "file": "rounded-corners.html",
+    "missing": [
+      "v1"
+    ]
+  },
+  {
+    "file": "seat-assignment.html",
+    "missing": [
+      "v1"
+    ]
+  },
+  {
+    "file": "slope-converter.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "speed-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "terms.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "text-anonymizer.html",
+    "missing": [
+      "v1"
+    ]
+  },
+  {
+    "file": "text-image-card.html",
+    "missing": [
+      "fileInput"
+    ]
+  },
+  {
+    "file": "text.html",
+    "missing": [
+      "langBtnText"
+    ]
+  },
+  {
+    "file": "tile-calculator.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "time-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "torque-converter.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "traditional-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "volume-units.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "wedding-anniversary.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "weight-converter.html",
+    "missing": [
+      "input"
+    ]
+  },
+  {
+    "file": "wifi-qr.html",
+    "missing": [
+      "val"
+    ]
+  },
+  {
+    "file": "workdays-calculator.html",
+    "missing": [
+      "input"
+    ]
+  }
+]

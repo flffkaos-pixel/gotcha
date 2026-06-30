@@ -1,0 +1,40 @@
+api-key.html	SyntaxError: Failed to execute 'click' on 'HTMLElement': Unexpected end of input
+box-shadow.html	TagError: adsbygoogle.push() error: All 'ins' elements in the DOM with class=adsbygoogle already have ads in them.
+category.html	TagError: adsbygoogle.push() error: All 'ins' elements in the DOM with class=adsbygoogle already have ads in them. || TagError: adsbygoogle.push() error: All 'ins' elements in the DOM with class=adsbygoogle already have ads in them.
+coin-flip.html	Unexpected token '.'
+color-mixer.html	Unexpected token '('
+contrast-checker.html	TagError: adsbygoogle.push() error: All 'ins' elements in the DOM with class=adsbygoogle already have ads in them.
+dice-coin.html	Unexpected token '.'
+gpa.html	Unexpected token '<' || ReferenceError: addRow is not defined
+image-to-base64.html	SyntaxError: Failed to execute 'click' on 'HTMLElement': Unexpected end of input
+images-to-pdf.html	missing ) after argument list
+income-tax.html	Unexpected token ')'
+index.html	TagError: adsbygoogle.push() error: All 'ins' elements in the DOM with class=adsbygoogle already have ads in them. || [console.error] Failed to load resource: the server responded with a status of 403 ()
+initial-avatar.html	Unexpected token '('
+list-randomizer.html	Invalid regular expression: missing /
+lorem.html	SyntaxError: Failed to execute 'click' on 'HTMLElement': Unexpected end of input
+lotto-generator.html	Unexpected token '.'
+meta-tag-generator.html	Failed to execute 'writeText' on 'Clipboard': Write permission denied.
+number-to-korean.html	Unexpected end of input
+pdf-text-extract.html	Invalid or unexpected token
+pdf-to-text.html	Invalid or unexpected token
+pii-masking.html	TypeError: Cannot read properties of undefined (reading 'replace') || TypeError: Cannot read properties of undefined (reading 'replace') || TypeError: Cannot read properties of undefined (reading 'replace')
+placeholder-image.html	Unexpected token '('
+privacy.html	TagError: adsbygoogle.push() error: All 'ins' elements in the DOM with class=adsbygoogle already have ads in them.
+quote.html	TagError: adsbygoogle.push() error: All 'ins' elements in the DOM with class=adsbygoogle already have ads in them.
+random-name.html	Unexpected token '.'
+random-number.html	Unexpected token '.'
+random-quote.html	Unexpected token '}'
+rot13.html	Failed to execute 'writeText' on 'Clipboard': Write permission denied. || TagError: adsbygoogle.push() error: All 'ins' elements in the DOM with class=adsbygoogle already have ads in them.
+roulette.html	TypeError: Cannot read properties of undefined (reading 'split')
+rpg-stats.html	TypeError: Cannot read properties of undefined (reading '0')
+rps-game.html	Unexpected token '.'
+slot-machine.html	Unexpected token '.'
+team-generator.html	Unexpected identifier 'text' || ReferenceError: generateTeams is not defined
+text-anonymizer.html	TypeError: Cannot read properties of undefined (reading 'replace') || TypeError: Cannot read properties of undefined (reading 'replace') || TypeError: Cannot read properties of undefined (reading 'replace')
+text-image-card.html	Unexpected token '('
+time-12-24.html	Unexpected number
+timestamp.html	SyntaxError: Failed to execute 'click' on 'HTMLElement': Unexpected end of input
+uuid.html	Invalid or unexpected token || ReferenceError: generate is not defined || SyntaxError: Failed to execute 'click' on 'HTMLElement': Unexpected end of input
+yes-no.html	Unexpected token '.'
+zodiac-compatibility.html	Unexpected token ')'

@@ -1,0 +1,289 @@
+[
+ {
+  "file": "about.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "age.html",
+  "missing": [
+   "days",
+   "months"
+  ]
+ },
+ {
+  "file": "birth-flower.html",
+  "missing": [
+   "v1"
+  ]
+ },
+ {
+  "file": "birth-stone.html",
+  "missing": [
+   "v1"
+  ]
+ },
+ {
+  "file": "blood-type-child.html",
+  "missing": [
+   "v1",
+   "v2"
+  ]
+ },
+ {
+  "file": "box-shadow.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "color-mixer.html",
+  "missing": [
+   "fileInput",
+   "genBtn",
+   "result"
+  ]
+ },
+ {
+  "file": "color-temperature.html",
+  "missing": [
+   "v1"
+  ]
+ },
+ {
+  "file": "compound-interest.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "contact.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "contrast-checker.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "daily-zodiac.html",
+  "missing": [
+   "v1"
+  ]
+ },
+ {
+  "file": "date-stamp.html",
+  "missing": [
+   "val"
+  ]
+ },
+ {
+  "file": "dice-ndm.html",
+  "missing": [
+   "v1",
+   "v2"
+  ]
+ },
+ {
+  "file": "favicon-generator.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "gradient-generator.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "hourly-salary.html",
+  "missing": [
+   "val"
+  ]
+ },
+ {
+  "file": "initial-avatar.html",
+  "missing": [
+   "fileInput",
+   "genBtn",
+   "result"
+  ]
+ },
+ {
+  "file": "list-randomizer.html",
+  "missing": [
+   "actionBtn",
+   "result",
+   "v1"
+  ]
+ },
+ {
+  "file": "lottery-draw.html",
+  "missing": [
+   "actionBtn",
+   "lotResult"
+  ]
+ },
+ {
+  "file": "lucky-number.html",
+  "missing": [
+   "v1"
+  ]
+ },
+ {
+  "file": "meta-tag-generator.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "name-compatibility.html",
+  "missing": [
+   "v1",
+   "v2"
+  ]
+ },
+ {
+  "file": "name-strokes.html",
+  "missing": [
+   "v1"
+  ]
+ },
+ {
+  "file": "number-baseball.html",
+  "missing": [
+   "v1",
+   "v2"
+  ]
+ },
+ {
+  "file": "parking-fee.html",
+  "missing": [
+   "val"
+  ]
+ },
+ {
+  "file": "password-strength.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "password.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "pii-masking.html",
+  "missing": [
+   "v1"
+  ]
+ },
+ {
+  "file": "placeholder-image.html",
+  "missing": [
+   "fileInput",
+   "result"
+  ]
+ },
+ {
+  "file": "pomodoro.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "privacy.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "quote.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "random-alphanumeric.html",
+  "missing": [
+   "v1"
+  ]
+ },
+ {
+  "file": "random-date.html",
+  "missing": [
+   "v1",
+   "v2"
+  ]
+ },
+ {
+  "file": "reading-speed.html",
+  "missing": [
+   "v1",
+   "v2"
+  ]
+ },
+ {
+  "file": "rot13.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "roulette.html",
+  "missing": [
+   "actionBtn",
+   "rouletteItems",
+   "rouletteResult"
+  ]
+ },
+ {
+  "file": "rounded-corners.html",
+  "missing": [
+   "v1"
+  ]
+ },
+ {
+  "file": "seat-assignment.html",
+  "missing": [
+   "v1"
+  ]
+ },
+ {
+  "file": "terms.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "text-anonymizer.html",
+  "missing": [
+   "v1"
+  ]
+ },
+ {
+  "file": "text-image-card.html",
+  "missing": [
+   "fileInput"
+  ]
+ },
+ {
+  "file": "text.html",
+  "missing": [
+   "langBtnText"
+  ]
+ },
+ {
+  "file": "wifi-qr.html",
+  "missing": [
+   "val"
+  ]
+ }
+]

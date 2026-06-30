@@ -1,0 +1,152 @@
+  id mapping: months->birth,days->birth
+  add placeholder: v1_local (for missing v1)
+  id mapping: v1->v1_local
+  add placeholder: v1_local (for missing v1)
+  id mapping: v1->v1_local
+  add placeholder: v1_local (for missing v1)
+  add placeholder: v2_local (for missing v2)
+  id mapping: v1->v1_local,v2->v2_local
+  id mapping: page-title->searchInput
+  id mapping: genBtn->mixBtn,result->preview,fileInput->c1
+  id mapping: v1->inputVal
+  add placeholder: v1_local (for missing v1)
+  id mapping: v1->v1_local
+  id mapping: val->inputVal
+  add placeholder: v1_local (for missing v1)
+  add placeholder: v2_local (for missing v2)
+  id mapping: v1->v1_local,v2->v2_local
+  id mapping: val->v1
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: downloadBtn_local (for missing downloadBtn)
+  add placeholder: fileList_local (for missing fileList)
+  id mapping: fileInput->fileInput_local,preview->preview_local,downloadBtn->downloadBtn_local,fileList->fileList_local
+  id mapping: page-title->searchInput,metaDesc->searchInput
+  id mapping: genBtn->downloadBtn,result->preview,fileInput->initialText
+  add placeholder: v1_local (for missing v1)
+  add placeholder: result_local (for missing result)
+  id mapping: actionBtn->lrr,v1->v1_local,result->result_local
+  add placeholder: v1_local (for missing v1)
+  id mapping: v1->v1_local
+  add placeholder: v1_local (for missing v1)
+  add placeholder: v2_local (for missing v2)
+  id mapping: v1->v1_local,v2->v2_local
+  add placeholder: v1_local (for missing v1)
+  id mapping: v1->v1_local
+  add placeholder: v1_local (for missing v1)
+  add placeholder: v2_local (for missing v2)
+  id mapping: v1->v1_local,v2->v2_local
+  id mapping: val->v1
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: downloadBtn_local (for missing downloadBtn)
+  add placeholder: quality_local (for missing quality)
+  id mapping: fileInput->fileInput_local,preview->preview_local,downloadBtn->downloadBtn_local,quality->quality_local
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: downloadBtn_local (for missing downloadBtn)
+  add placeholder: fileList_local (for missing fileList)
+  id mapping: fileInput->fileInput_local,preview->preview_local,downloadBtn->downloadBtn_local,fileList->fileList_local
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: downloadBtn_local (for missing downloadBtn)
+  add placeholder: pagesInput_local (for missing pagesInput)
+  id mapping: fileInput->fileInput_local,preview->preview_local,downloadBtn->downloadBtn_local,pagesInput->pagesInput_local
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: downloadBtn_local (for missing downloadBtn)
+  add placeholder: pagesInput_local (for missing pagesInput)
+  id mapping: fileInput->fileInput_local,preview->preview_local,downloadBtn->downloadBtn_local,pagesInput->pagesInput_local
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: downloadBtn_local (for missing downloadBtn)
+  add placeholder: startNum_local (for missing startNum)
+  id mapping: fileInput->fileInput_local,preview->preview_local,downloadBtn->downloadBtn_local,startNum->startNum_local
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: downloadBtn_local (for missing downloadBtn)
+  add placeholder: rotation_local (for missing rotation)
+  id mapping: fileInput->fileInput_local,preview->preview_local,downloadBtn->downloadBtn_local,rotation->rotation_local
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: downloadBtn_local (for missing downloadBtn)
+  id mapping: fileInput->fileInput_local,preview->preview_local,downloadBtn->downloadBtn_local
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: copyBtn_local (for missing copyBtn)
+  id mapping: fileInput->fileInput_local,preview->preview_local,copyBtn->copyBtn_local
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: downloadBtn_local (for missing downloadBtn)
+  add placeholder: format_local (for missing format)
+  id mapping: fileInput->fileInput_local,preview->preview_local,downloadBtn->downloadBtn_local,format->format_local
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: copyBtn_local (for missing copyBtn)
+  id mapping: fileInput->fileInput_local,preview->preview_local,copyBtn->copyBtn_local
+  add placeholder: fileInput_local (for missing fileInput)
+  add placeholder: preview_local (for missing preview)
+  add placeholder: downloadBtn_local (for missing downloadBtn)
+  add placeholder: wmText_local (for missing wmText)
+  id mapping: fileInput->fileInput_local,preview->preview_local,downloadBtn->downloadBtn_local,wmText->wmText_local
+  id mapping: v1->inputVal
+  add placeholder: fileInput_local (for missing fileInput)
+  id mapping: result->preview,fileInput->fileInput_local
+  add placeholder: v1_local (for missing v1)
+  id mapping: v1->v1_local
+  add placeholder: v1_local (for missing v1)
+  add placeholder: v2_local (for missing v2)
+  id mapping: v1->v1_local,v2->v2_local
+  add placeholder: v1_local (for missing v1)
+  add placeholder: v2_local (for missing v2)
+  id mapping: v1->v1_local,v2->v2_local
+  id mapping: v1->inputVal
+  add placeholder: v1_local (for missing v1)
+  id mapping: v1->v1_local
+  id mapping: v1->inputVal
+  add placeholder: fileInput_local (for missing fileInput)
+  id mapping: fileInput->fileInput_local
+  id mapping: val->v1
+=== 41/476 files changed ===
+=== changed files (first 80):
+age.html
+birth-flower.html
+birth-stone.html
+blood-type-child.html
+category.html
+color-mixer.html
+color-temperature.html
+daily-zodiac.html
+date-stamp.html
+dice-ndm.html
+hourly-salary.html
+images-to-pdf.html
+index.html
+initial-avatar.html
+list-randomizer.html
+lucky-number.html
+name-compatibility.html
+name-strokes.html
+number-baseball.html
+parking-fee.html
+pdf-compress.html
+pdf-merge.html
+pdf-page-delete.html
+pdf-page-extract.html
+pdf-page-numbers.html
+pdf-rotate.html
+pdf-split.html
+pdf-text-extract.html
+pdf-to-images.html
+pdf-to-text.html
+pdf-watermark.html
+pii-masking.html
+placeholder-image.html
+random-alphanumeric.html
+random-date.html
+reading-speed.html
+rounded-corners.html
+seat-assignment.html
+text-anonymizer.html
+text-image-card.html
+wifi-qr.html
